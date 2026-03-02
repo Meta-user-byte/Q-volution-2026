@@ -145,3 +145,5 @@ This makes the raw implementation significantly slower than ESN and motivates op
 
 ```bash
 pip install numpy pandas matplotlib scikit-learn torch
+pip install datasets
+pip install perceval-quandela
