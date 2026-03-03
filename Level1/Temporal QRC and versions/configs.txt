@@ -1,0 +1,8 @@
+num of PCA feats            (3, 5, 7, 9)
+length of history window    (3, 5, 7, 9)
+number of modes             (3, 5, 7, 9)
+norm after PCA?             (true, false)
+reservoir type?             (1, 2, 3)
+scale_type                  (1, pi, 2pi)
+input state?                (all ones, alternate ones, only data ones)
+
