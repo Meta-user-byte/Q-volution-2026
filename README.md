@@ -102,6 +102,109 @@ Use ridge regression to map quantum features to predicted residuals.
 Only the readout layer is trained.
 
 ---
+# Quantum Reservoir Computing for Volatility Surface Prediction
+
+We implement a **Quantum Reservoir Computing (QRC)** model based on a photonic Fock-space simulation using the `Merlin` framework.
+
+The reservoir consists of:
+- $8$ photonic modes,
+- $4$ indistinguishable photons,
+- fixed entangling interferometric layers,
+- angle encoding of input features.
+
+The photonic circuit produces measurement probabilities in Fock space:
+
+$$
+\Phi(u_t) \in \mathbb{R}^{D},
+$$
+
+where $D = 330$ is the Fock-space dimension for $(8\ \text{modes},\ 4\ \text{photons})$.  
+These probabilities serve as high-dimensional nonlinear feature embeddings.
+
+---
+
+### 1. Leaky Quantum Echo-State Dynamics
+
+The reservoir state $z_t \in \mathbb{R}^{D}$ evolves according to a **leaky echo-state update**:
+
+$$
+z_{t} = (1 - \epsilon)\, z_{t-1} + \epsilon\, \Phi(u_t),
+$$
+
+where:
+- $\epsilon$ is the leaking rate,
+- $u_t = \bigl[x_t,\ \text{feedback}(z_{t-1})\bigr]$ is the augmented input vector.
+
+This leaky integration ensures **fading memory** while preserving the nonlinear quantum transformations induced by the photonic interferometer.
+
+> **Note:** The reservoir itself is **not trained**. Only the linear readout is optimized.
+
+---
+
+### 2. Linear Ridge Readout
+
+To predict $\Delta x_t$, we train a **ridge regression readout**:
+
+$$
+W = \left(Z^\top Z + \lambda I \right)^{-1} Z^\top Y,
+$$
+
+where:
+- $Z$ contains the reservoir states,
+- $Y$ contains the target increments,
+- $\lambda$ is the Tikhonov regularization parameter.
+
+A bias term is appended to the reservoir state before training.  
+The prediction is then:
+
+$$
+\widehat{\Delta x_t} = W^\top [z_t,\ 1].
+$$
+
+PCA inversion and inverse scaling reconstruct the full volatility surface.
+
+---
+
+### 3. Lyapunov-Based Adaptive Regularization
+
+To ensure dynamical stability and prevent amplification of unstable directions, we introduce an **adaptive regularization mechanism** inspired by Lyapunov analysis.
+
+The finite-difference variation of reservoir states is defined as:
+
+$$
+\Delta Z_t = z_{t+1} - z_t.
+$$
+
+Stacking these differences forms a matrix whose largest singular value:
+
+$$
+\sigma_{\max} = \max\ \text{singular value of}\ \Delta Z,
+$$
+
+serves as a proxy for dynamical amplification.  
+The ridge parameter is then adapted as:
+
+$$
+\lambda_{\text{adaptive}} = \lambda_0 \cdot \max(1,\ \sigma_{\max}).
+$$
+
+If the reservoir exhibits expansion ($\sigma_{\max} > 1$), additional regularization is imposed.  
+This couples **dynamical stability** with **statistical generalization**.
+
+---
+
+### 4. Multi-Step Forecasting
+
+For multi-step forecasting, the model is operated in **autoregressive mode**:
+
+$$
+x_{t+1} = x_t + \widehat{\Delta x_t},
+$$
+
+feeding predicted outputs back into the reservoir input.
+
+This allows trajectory generation in PCA space and reconstruction of future volatility surfaces.
+---
 ### Final benchmark Results
 
 We executed three novel models, and in which our ---- model beats all baselines.
