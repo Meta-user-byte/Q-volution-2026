@@ -41,7 +41,7 @@ df = ds.to_pandas()
 ```
 
 ## Method Summary
-For full information, please read the PDF file.
+***For full information, please read the PDF file.***
 ### Preprocessing
 
 - Remove the `Date` column  
