@@ -111,10 +111,10 @@ Only the readout layer is trained.
 
 We executed three novel models, and in which our ---- model beats all baselines.
 
-| Model        | RMSE     |
-|--------------|----------:|
-| Recurrent QRC model  |    |
-| ------- | 2.24e-2   |
+| Model        | RMSE     |  MAE   |
+|--------------|----------:|---------|
+| Recurrent QRC model  | 0.0036   |  
+| ------- | 0.0010  |    0.00035    |
 
 
 ## Diagnostics Included
