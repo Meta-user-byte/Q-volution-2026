@@ -107,6 +107,15 @@ Use ridge regression to map quantum features to predicted residuals.
 Only the readout layer is trained.
 
 ---
+### Final benchmark Results
+
+We executed three novel models, and in which our ---- model beats all baselines.
+
+| Model        | RMSE     |
+|--------------|----------:|
+| Recurrent QRC model  |    |
+| ------- | 2.24e-2   |
+
 
 ## Diagnostics Included
 
