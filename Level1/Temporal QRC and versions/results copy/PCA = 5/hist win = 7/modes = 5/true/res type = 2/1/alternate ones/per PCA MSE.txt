@@ -1,0 +1,24 @@
+-----For Ridge (L2)-----
+tensor(88.3892)
+tensor(33.7816)
+tensor(17.7631)
+tensor(0.1928)
+tensor(0.0100)
+-----For Linear Regression-----
+tensor(94.8541)
+tensor(34.9900)
+tensor(17.6212)
+tensor(0.2023)
+tensor(0.0119)
+-----For Random Forest-----
+tensor(83.9715, dtype=torch.float64)
+tensor(17.1584, dtype=torch.float64)
+tensor(6.7842, dtype=torch.float64)
+tensor(0.1291, dtype=torch.float64)
+tensor(0.0010, dtype=torch.float64)
+-----For Decision Tree-----
+tensor(123.7766, dtype=torch.float64)
+tensor(49.9610, dtype=torch.float64)
+tensor(25.2015, dtype=torch.float64)
+tensor(0.1051, dtype=torch.float64)
+tensor(0.0117, dtype=torch.float64)
