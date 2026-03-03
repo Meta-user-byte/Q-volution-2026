@@ -7,14 +7,6 @@
 
 ---
 
-## Overview
-
-This repository contains our work for **Q-volution Hackathon 2026**, where we develop and compare:
-
-- A classical **Echo State Network (ESN)**
-- A photonic **Quantum Reservoir (Fock-space implementation, without Merlin)**
-
-The objective is to forecast the **next-day implied volatility surface** of interest rate swaptions and evaluate whether quantum-enhanced feature extraction improves performance over classical reservoir computing.
 
 ---
 
