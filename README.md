@@ -102,7 +102,7 @@ Use ridge regression to map quantum features to predicted residuals.
 Only the readout layer is trained.
 
 ---
-## Model-2  Quantum Reservoir Computing for Volatility Surface Prediction
+### Model-2  Quantum Reservoir Computing for Volatility Surface Prediction
 
 We implement a **Quantum Reservoir Computing (QRC)** model based on a photonic Fock-space simulation using the `Merlin` framework.
 
@@ -204,6 +204,37 @@ $$
 feeding predicted outputs back into the reservoir input.
 
 This allows trajectory generation in PCA space and reconstruction of future volatility surfaces.
+
+### Descrption of Model 4: Sequential Processing QRC
+
+The Sequential Processing QRC model represents the most advanced iteration of our hybrid quantum-classical architecture. It utilizes a fixed photonic quantum system as a high-dimensional nonlinear feature extractor, coupled with a classical readout layer to model the complex, low-dimensional dynamics of implied volatility surfaces.
+
+<h3>Architectural Design:</h3>
+The model processes standardized and PCA-reduced market factors through a structured quantum-hybrid pipeline:
+
+<ul>
+  <li>Dimensionality Reduction: The volatility surface ($n=224$) is projected onto $r=5$ principal components, capturing approximately 99.98% of the total variance.</li>
+  <li>Temporal Windowing: A history window (optimized at a length of 7) determines the depth of the data considered for current predictions.</li>
+  <li>Quantum Encoding: Latent vectors are angle-encoded into optical phase shifts via photon-number operators. This encoding implicitly introduces high-order nonlinear interactions between input features.</li>
+  <li>Reservoir Dynamics: The reservoir utilizes a Rectangular interferometer circuit (Type 2) operating in a bosonic Fock space. The system configuration for optimal performance includes:
+    <ul>
+      <li>Modes: 5</li>
+      <li>Photon Initial State: All ones (e.g., $[1, 1, 1, 1, 1]$)</li>
+      <li>Input Scaling: Type 1</li>
+    </ul>
+  </li>
+  <li>Feature Extraction: High-dimensional nonlinear embeddings are extracted as expectation values of photon number operators, serving as inputs for the classical readout.</li>
+</ul>
+
+<h3>Classical Readout Strategies</h3>
+We evaluated four distinct readout regressors to map extracted quantum features to predicted latent vectors:
+
+<ul>
+  <li>Linear Regression: Tests if the quantum transformation alone provides sufficient linear separation.</li>
+  <li>Ridge Regression: Incorporates L2-regularization to improve numerical stability and reduce overfitting.</li>
+  <li>Decision Tree: Provides nonlinear piecewise approximations without requiring feature engineering.</li>
+  <li>Random Forest: An ensemble-based approach that reduces variance while preserving nonlinear modeling capacity.</li>
+</ul>
 ---
 ### Final benchmark Results
 
