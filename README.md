@@ -243,7 +243,7 @@ We executed three novel models, and in which our ---- model beats all baselines.
 | Model        | RMSE     |  MAE   |
 |--------------|----------:|---------|
 | Recurrent QRC model  | 0.0036   |  0.0027 |
-| 🥇 Sequential Processing QRC (Ridge Readout) | 0.001962  |     0.001273    |
+| 🥇 Sequential Processing QRC (PCA=5, history window=7, mode=5, Type 2 QRC, Ridge Readout) | 0.001962  |     0.001273    |
 
 
 ## Diagnostics Included
