@@ -1,1 +1,199 @@
-File
+Recurrent Photonic Quantum Reservoir for Volatility Surface Forecasting
+
+This project implements two quantum reservoir computing (QRC) architectures for forecasting swaption volatility surfaces:
+
+Model-1: Recurrent Photonic QRC (Explicit Fock Simulation, no Merlin)
+
+Model-2: Feedback-Driven Photonic QRC (Merlin-based implementation)
+
+Both models operate on PCA-compressed volatility surfaces and reconstruct full Tenor × Maturity grids.
+
+Data Pipeline
+
+Raw surface dimension: 224 (Tenor × Maturity grid)
+
+PCA compression: r = 5
+
+Task: One-step-ahead forecasting
+
+Reconstruction: Inverse PCA → full volatility surface
+
+Model-1: Recurrent Quantum Reservoir (Without Merlin)
+Architecture
+
+10 optical modes
+
+5 photons
+
+Explicit Fock space simulation
+
+Hilbert dimension:
+
+dim
+⁡
+=
+(
+𝑚
++
+𝑛
+−
+1
+𝑛
+)
+=
+2002
+dim=(
+n
+m+n−1
+	​
+
+)=2002
+Memory Mechanism
+
+Memory is stored in coherent quantum evolution:
+
+𝜓
+𝑡
++
+1
+=
+𝑈
+fock
+𝑈
+in
+(
+𝑋
+𝑡
+)
+𝜓
+𝑡
+ψ
+t+1
+	​
+
+=U
+fock
+	​
+
+U
+in
+	​
+
+(X
+t
+	​
+
+)ψ
+t
+	​
+
+
+No measurement feedback. The quantum state accumulates history through unitary evolution.
+
+Surface Forecasting Results
+Metric	Value
+Surface MSE	2.64 × 10⁻⁴
+Surface RMSE	1.62 × 10⁻²
+Interpretation
+
+Significant improvement over classical ESN baseline.
+
+~28% RMSE reduction compared to ESN.
+
+Rich nonlinear mixing from bosonic interference.
+
+Limitation
+
+Permanent computation scales factorially.
+
+Dense 2002×2002 matrix evolution.
+
+Computationally expensive.
+
+Model-2: Feedback-Driven Quantum Reservoir (With Merlin)
+Architecture
+
+10 modes
+
+5 photons
+
+Merlin QuantumLayer
+
+Residual learning formulation
+
+Memory Mechanism
+
+Memory is stored via classical feedback:
+
+𝛼
+𝑡
+=
+[
+𝑋
+𝑡
+,
+𝜆
+𝑍
+𝑡
+−
+1
+]
+α
+t
+	​
+
+=[X
+t
+	​
+
+,λZ
+t−1
+	​
+
+]
+
+Each cycle:
+
+Measure
+
+Destroy quantum state
+
+Feed measurement back
+
+This implements a feedback-driven fading memory system.
+
+PCA-Space Performance
+Component	Relative RMSE
+PC0	36.0%
+PC1	20.9%
+PC2	29.5%
+PC3	42.2%
+PC4	24.8%
+Surface-Space Performance
+Metric	Value
+Surface MSE	1.30 × 10⁻⁵
+Surface RMSE	3.61 × 10⁻³
+Interpretation
+
+Order-of-magnitude improvement over explicit Fock model.
+
+Stable residual formulation.
+
+Efficient online processing.
+
+Scalable and hardware-compatible.
+
+Core Difference
+Without Merlin	With Merlin
+Memory in quantum state	Memory via classical feedback
+Unitary recurrence	Feedback-driven recurrence
+Heavy Fock simulation	Optimized abstraction
+Explicit permanent computation	Compiled photonic circuit
+Higher compute cost	Scalable
+Conclusion
+
+Pure Fock QRC improves over classical baselines.
+
+Feedback-Driven Merlin QRC dramatically improves surface accuracy.
+
+Classical feedback memory is more stable than pure unitary accumulation for financial time series.
