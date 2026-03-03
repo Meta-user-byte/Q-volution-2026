@@ -79,34 +79,32 @@ The ESN captures dominant nonlinear dynamics in latent space and serves as a str
 
 ---
 
-## Quantum Baseline — Photonic Fock-Space Reservoir (No Merlin)
+### Description of Model 1 - Recurrent Quantum Reservoir Computing (Feedback - Driven)
 
-### Configuration
+- Step 1 — Preprocess Data
+Standardize volatility surfaces and apply PCA.
+Reduce 224 dimensions to 5 latent factors.
 
-- 10 optical modes  
-- 5 photons  
-- Hilbert space dimension = 2002  
+- Step 2 — Define Forecast Target
+Model the change in PCA factors (residuals).
+Next factor = current factor + predicted change.
 
-### Core Idea
+- Step 3 — Encode Input
+Encode PCA factors as phase shifts in a photonic circuit.
+Use 10 modes and 5 photons.
 
-- Encode latent factors as phase shifts  
-- Apply fixed interferometric unitary  
-- Extract photon-number expectations  
-- Train only the linear readout  
+- Step 4 — Quantum Feature Extraction
+Pass encoded input through a fixed interferometer.
+Measure photon statistics to obtain nonlinear features.
 
-### Results
+- Step 5 — Introduce Recurrence
+Include memory in the system.
+• Without Merlin: memory in quantum state.
+• With Merlin: memory via classical feedback.
 
-| Metric        | Value     |
-|--------------|----------:|
-| Surface MSE  | 2.64e-4   |
-| Surface RMSE | 1.62e-2   |
-
-### Improvement vs Classical ESN
-
-- ~1.9× lower MSE  
-- ~28% reduction in RMSE  
-
-The quantum reservoir provides richer nonlinear mixing via bosonic interference.
+- Step 6 — Train Readout
+Use ridge regression to map quantum features to predicted residuals.
+Only the readout layer is trained.
 
 ---
 
