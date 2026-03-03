@@ -1,117 +1,117 @@
-Recurrent Photonic Quantum Reservoir for Volatility Surface Forecasting
+### Recurrent Photonic Quantum Reservoir for Volatility Surface Forecasting
 
 This repository implements two Quantum Reservoir Computing (QRC) architectures for forecasting swaption volatility surfaces using photonic quantum models.
 
-Both models:
+### Both models:
 
-Operate on PCA-compressed volatility surfaces
+- Operate on PCA-compressed volatility surfaces
 
-Perform one-step-ahead forecasting
+- Perform one-step-ahead forecasting
 
-Reconstruct the full Tenor × Maturity surface via inverse PCA
+- Reconstruct the full Tenor × Maturity surface via inverse PCA
 
-Problem Setting
+### Problem Setting
 
-Each swaption volatility surface is defined over a Tenor × Maturity grid:
+- Each swaption volatility surface is defined over a Tenor × Maturity grid:
 
-Sₜ ∈ R²²⁴
+- Sₜ ∈ R²²⁴
 
-Raw surface dimension: 224
+- Raw surface dimension: 224
 
-PCA compression: r = 5 components
+- PCA compression: r = 5 components
 
-Forecasting task: One-step-ahead
+- Forecasting task: One-step-ahead
 
-Reconstruction: Inverse PCA → Full 224-dimensional surface
+- Reconstruction: Inverse PCA → Full 224-dimensional surface
 
-Data Pipeline
+### Data Pipeline
 
-Load raw 224-dimensional volatility surfaces
+- Load raw 224-dimensional volatility surfaces
 
-Apply PCA compression (retain 5 principal components)
+- Apply PCA compression (retain 5 principal components)
 
-Train quantum reservoir in PCA space
+- Train quantum reservoir in PCA space
 
-Forecast next-step PCA components
+- Forecast next-step PCA components
 
-Apply inverse PCA
+- Apply inverse PCA
 
-Reconstruct full Tenor × Maturity surface
+- Reconstruct full Tenor × Maturity surface
 
-Model 1 — Recurrent Photonic Quantum Reservoir
+### Model 1 — Recurrent Photonic Quantum Reservoir
 
 (Explicit Fock Simulation – No Merlin)
 
-Architecture
+## Architecture:
 
-10 optical modes
+- 10 optical modes
 
-5 photons
+- 5 photons
 
-Explicit Fock space simulation
+- Explicit Fock space simulation
 
-Hilbert space dimension:
+- Hilbert space dimension:
 
 dim = C(m + n − 1, n)
 dim = C(14, 5)
 dim = 2002
 
-This results in a 2002-dimensional bosonic Hilbert space.
+- This results in a 2002-dimensional bosonic Hilbert space.
 
-Memory Mechanism
+### Memory Mechanism
 
-Memory is stored in coherent quantum evolution:
+- Memory is stored in coherent quantum evolution:
 
 psi(t+1) = U_fock · U_in(X_t) · psi(t)
 
-No measurement feedback
+- No measurement feedback
 
-No state reset
+- No state reset
 
-History accumulates purely through unitary evolution
+- History accumulates purely through unitary evolution
 
-Nonlinearity arises from bosonic interference
+- Nonlinearity arises from bosonic interference
 
-Performance
+### Performance
 Surface Forecasting Performance
 Metric	Value
 Surface MSE	2.64 × 10⁻⁴
 Surface RMSE	1.62 × 10⁻²
-Interpretation
 
-Significant improvement over classical ESN baseline
+### Interpretation
+
+- Significant improvement over classical ESN baseline
 
 ~28% RMSE reduction vs ESN
 
-Rich nonlinear mixing from multi-photon interference
+- Rich nonlinear mixing from multi-photon interference
 
-Limitations
+### Limitations
 
-Permanent-based computation scales factorially
+- Permanent-based computation scales factorially
 
-Dense 2002 × 2002 matrix evolution
+- Dense 2002 × 2002 matrix evolution
 
-Computationally expensive
+- Computationally expensive
 
-Poor scalability for larger photon counts
+- Poor scalability for larger photon counts
 
-Model 2 — Feedback-Driven Photonic QRC
-
+### Model 2 — Feedback-Driven Photonic QRC
 (Merlin-Based Implementation)
 
-Architecture
+## Architecture
 
-10 optical modes
+- 10 optical modes
 
-5 photons
+- 5 photons
 
-Implemented via Merlin QuantumLayer
+- Implemented via Merlin QuantumLayer
 
-Residual learning formulation
+- Residual learning formulation
 
-Memory Mechanism
+### Memory Mechanism
 
-Memory is stored via classical feedback:
+- Memory is stored via classical feedback:
 
 alpha_t = [X_t , lambda · Z_(t−1)]
 
