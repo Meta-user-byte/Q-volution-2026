@@ -1,0 +1,20 @@
+Ridge (L2) Training Complete | Final MSE: 9.008137 | Surface MSE in real space: 0.000007
+Ridge (L2) Training Complete | Final RMSE: 3.001356 | Surface RMSE in real space: 0.002575
+Ridge (L2) Training Complete | Final MAE: 1.745529 | Surface MAE in real space: 0.001664
+Ridge (L2) Training Complete | Final QLIKE: 458905376.000000 | Surface QLIKE in real space: 0.000393
+----------
+Linear Regression Training Complete | Final MSE: 2204.822266 | Surface MSE in real space: 0.001440
+Linear Regression Training Complete | Final RMSE: 46.955536 | Surface RMSE in real space: 0.037942
+Linear Regression Training Complete | Final MAE: 16.699587 | Surface MAE in real space: 0.016533
+Linear Regression Training Complete | Final QLIKE: 3371202048.000000 | Surface QLIKE in real space: 19106596.366332
+----------
+Random Forest Training Complete | Final MSE: 9.301423 | Surface MSE in real space: 0.000009
+Random Forest Training Complete | Final RMSE: 3.049824 | Surface RMSE in real space: 0.002954
+Random Forest Training Complete | Final MAE: 1.977663 | Surface MAE in real space: 0.001687
+Random Forest Training Complete | Final QLIKE: 1662635206.690640 | Surface QLIKE in real space: 0.000637
+----------
+Decision Tree Training Complete | Final MSE: 21.151937 | Surface MSE in real space: 0.000021
+Decision Tree Training Complete | Final RMSE: 4.599123 | Surface RMSE in real space: 0.004584
+Decision Tree Training Complete | Final MAE: 3.033890 | Surface MAE in real space: 0.002617
+Decision Tree Training Complete | Final QLIKE: 3217438302.931517 | Surface QLIKE in real space: 0.001380
+----------
