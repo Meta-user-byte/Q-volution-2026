@@ -205,7 +205,7 @@ feeding predicted outputs back into the reservoir input.
 
 This allows trajectory generation in PCA space and reconstruction of future volatility surfaces.
 
-## Descrption of Model 4: Sequential Processing QRC
+## Descrption of Model 4: Sequential (Temporal) Processing QRC
 
 The Sequential Processing QRC model represents the most advanced iteration of our hybrid quantum-classical architecture. It utilizes a fixed photonic quantum system as a high-dimensional nonlinear feature extractor, coupled with a classical readout layer to model the complex, low-dimensional dynamics of implied volatility surfaces.
 
