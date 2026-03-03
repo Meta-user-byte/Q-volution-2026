@@ -1,8 +1,8 @@
 # QML Model for Option Pricing  
 ### Team Qubiteers  
-[Ankit](https://www.linkedin.com/in/ankit-sharma-3733a7144/) · 
-[Soham](https://www.linkedin.com/in/soham-pawar-b6881a251/) · 
-[Mai](https://www.linkedin.com/in/quachhoamai14012000/) · 
+[Ankit Sharma](https://www.linkedin.com/in/ankit-sharma-3733a7144/) · 
+[Soham Pawar](https://www.linkedin.com/in/soham-pawar-b6881a251/) · 
+[Quách Hoa Mai](https://www.linkedin.com/in/quachhoamai14012000/) · 
 [Abdullah K](https://www.linkedin.com/in/abdullah-aab-a-kk/)
 
 ---
