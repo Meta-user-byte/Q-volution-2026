@@ -165,7 +165,7 @@ PCA inversion and inverse scaling reconstruct the full volatility surface.
 
 ---
 
-## Modem 3 - Lyapunov-Based Adaptive Regularization
+## Model 3 - Lyapunov-Based Adaptive Regularization
 
 To ensure dynamical stability and prevent amplification of unstable directions, we introduce an **adaptive regularization mechanism** inspired by Lyapunov analysis.
 
