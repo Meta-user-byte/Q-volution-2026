@@ -74,7 +74,7 @@ The ESN captures dominant nonlinear dynamics in latent space and serves as a str
 
 ---
 
-### Description of Model 1 - Recurrent Quantum Reservoir Computing (Feedback - Driven)
+## Description of Model 1 - Recurrent Quantum Reservoir Computing (Feedback - Driven)
 
 - Step 1 — Preprocess Data
 Standardize volatility surfaces and apply PCA.
@@ -102,7 +102,7 @@ Use ridge regression to map quantum features to predicted residuals.
 Only the readout layer is trained.
 
 ---
-### Model-2  Quantum Reservoir Computing for Volatility Surface Prediction
+## Model-2  Quantum Reservoir Computing for Volatility Surface Prediction
 
 We implement a **Quantum Reservoir Computing (QRC)** model based on a photonic Fock-space simulation using the `Merlin` framework.
 
@@ -205,7 +205,7 @@ feeding predicted outputs back into the reservoir input.
 
 This allows trajectory generation in PCA space and reconstruction of future volatility surfaces.
 
-### Descrption of Model 4: Sequential Processing QRC
+## Descrption of Model 4: Sequential Processing QRC
 
 The Sequential Processing QRC model represents the most advanced iteration of our hybrid quantum-classical architecture. It utilizes a fixed photonic quantum system as a high-dimensional nonlinear feature extractor, coupled with a classical readout layer to model the complex, low-dimensional dynamics of implied volatility surfaces.
 
