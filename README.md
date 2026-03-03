@@ -102,7 +102,7 @@ Use ridge regression to map quantum features to predicted residuals.
 Only the readout layer is trained.
 
 ---
-#33 Model-2  Quantum Reservoir Computing for Volatility Surface Prediction
+## Model-2  Quantum Reservoir Computing for Volatility Surface Prediction
 
 We implement a **Quantum Reservoir Computing (QRC)** model based on a photonic Fock-space simulation using the `Merlin` framework.
 
