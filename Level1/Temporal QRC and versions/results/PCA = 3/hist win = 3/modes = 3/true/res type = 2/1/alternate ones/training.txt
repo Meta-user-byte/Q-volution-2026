@@ -1,0 +1,28 @@
+Training Quantum Reservoir...
+shapes mid: (392, 6) (392, 3)
+Readout Type         | PCA MSE      | Real Space MSE 
+-------------------------------------------------------
+shape of predictions_np: (392, 3)
+shape of Y_targets: (392, 3)
+Ridge (L2) Training Complete | Final MSE: 21.8275527954 | Surface MSE in real space: 0.0000061080
+Ridge (L2) Training Complete | Final RMSE: 4.6719965935 | Surface RMSE in real space: 0.0024714298
+Ridge (L2) Training Complete | Final MAE: 3.6191480160 | Surface MAE in real space: 0.0016787386
+Ridge (L2) Training Complete | Final QLIKE: 2791036416.0000000000 | Surface QLIKE in real space: 0.0002322646
+shape of predictions_np: (392, 3)
+shape of Y_targets: (392, 3)
+Linear Regression Training Complete | Final MSE: 21.8275241852 | Surface MSE in real space: 0.0000061080
+Linear Regression Training Complete | Final RMSE: 4.6719937325 | Surface RMSE in real space: 0.0024714287
+Linear Regression Training Complete | Final MAE: 3.6190884113 | Surface MAE in real space: 0.0016787690
+Linear Regression Training Complete | Final QLIKE: 2791036416.0000000000 | Surface QLIKE in real space: 0.0002322553
+shape of predictions_np: (392, 3)
+shape of Y_targets: (392, 3)
+Random Forest Training Complete | Final MSE: 3.5601155782 | Surface MSE in real space: 0.0000010634
+Random Forest Training Complete | Final RMSE: 1.8868268543 | Surface RMSE in real space: 0.0010312346
+Random Forest Training Complete | Final MAE: 1.3632186687 | Surface MAE in real space: 0.0006640201
+Random Forest Training Complete | Final QLIKE: 371120671.6742213964 | Surface QLIKE in real space: 0.0000439088
+shape of predictions_np: (392, 3)
+shape of Y_targets: (392, 3)
+Decision Tree Training Complete | Final MSE: 0.3505427114 | Surface MSE in real space: 0.0000001246
+Decision Tree Training Complete | Final RMSE: 0.5920664755 | Surface RMSE in real space: 0.0003530121
+Decision Tree Training Complete | Final MAE: 0.2555309997 | Surface MAE in real space: 0.0001207009
+Decision Tree Training Complete | Final QLIKE: 40452467.2511886656 | Surface QLIKE in real space: 0.0000061134
