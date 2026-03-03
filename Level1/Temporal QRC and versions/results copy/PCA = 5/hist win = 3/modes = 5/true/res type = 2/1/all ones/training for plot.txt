@@ -1,0 +1,649 @@
+datasets.arrow_dataset.Dataset
+DatasetDict({
+    train: Dataset({
+        features: ['Date', 'Tenor : 1; Maturity : 0.0833333333333333', 'Tenor : 2; Maturity : 0.0833333333333333', 'Tenor : 3; Maturity : 0.0833333333333333', 'Tenor : 4; Maturity : 0.0833333333333333', 'Tenor : 5; Maturity : 0.0833333333333333', 'Tenor : 6; Maturity : 0.0833333333333333', 'Tenor : 7; Maturity : 0.0833333333333333', 'Tenor : 8; Maturity : 0.0833333333333333', 'Tenor : 9; Maturity : 0.0833333333333333', 'Tenor : 10; Maturity : 0.0833333333333333', 'Tenor : 15; Maturity : 0.0833333333333333', 'Tenor : 20; Maturity : 0.0833333333333333', 'Tenor : 25; Maturity : 0.0833333333333333', 'Tenor : 30; Maturity : 0.0833333333333333', 'Tenor : 1; Maturity : 0.25', 'Tenor : 2; Maturity : 0.25', 'Tenor : 3; Maturity : 0.25', 'Tenor : 4; Maturity : 0.25', 'Tenor : 5; Maturity : 0.25', 'Tenor : 6; Maturity : 0.25', 'Tenor : 7; Maturity : 0.25', 'Tenor : 8; Maturity : 0.25', 'Tenor : 9; Maturity : 0.25', 'Tenor : 10; Maturity : 0.25', 'Tenor : 15; Maturity : 0.25', 'Tenor : 20; Maturity : 0.25', 'Tenor : 25; Maturity : 0.25', 'Tenor : 30; Maturity : 0.25', 'Tenor : 1; Maturity : 0.5', 'Tenor : 2; Maturity : 0.5', 'Tenor : 3; Maturity : 0.5', 'Tenor : 4; Maturity : 0.5', 'Tenor : 5; Maturity : 0.5', 'Tenor : 6; Maturity : 0.5', 'Tenor : 7; Maturity : 0.5', 'Tenor : 8; Maturity : 0.5', 'Tenor : 9; Maturity : 0.5', 'Tenor : 10; Maturity : 0.5', 'Tenor : 15; Maturity : 0.5', 'Tenor : 20; Maturity : 0.5', 'Tenor : 25; Maturity : 0.5', 'Tenor : 30; Maturity : 0.5', 'Tenor : 1; Maturity : 0.75', 'Tenor : 2; Maturity : 0.75', 'Tenor : 3; Maturity : 0.75', 'Tenor : 4; Maturity : 0.75', 'Tenor : 5; Maturity : 0.75', 'Tenor : 6; Maturity : 0.75', 'Tenor : 7; Maturity : 0.75', 'Tenor : 8; Maturity : 0.75', 'Tenor : 9; Maturity : 0.75', 'Tenor : 10; Maturity : 0.75', 'Tenor : 15; Maturity : 0.75', 'Tenor : 20; Maturity : 0.75', 'Tenor : 25; Maturity : 0.75', 'Tenor : 30; Maturity : 0.75', 'Tenor : 1; Maturity : 1', 'Tenor : 2; Maturity : 1', 'Tenor : 3; Maturity : 1', 'Tenor : 4; Maturity : 1', 'Tenor : 5; Maturity : 1', 'Tenor : 6; Maturity : 1', 'Tenor : 7; Maturity : 1', 'Tenor : 8; Maturity : 1', 'Tenor : 9; Maturity : 1', 'Tenor : 10; Maturity : 1', 'Tenor : 15; Maturity : 1', 'Tenor : 20; Maturity : 1', 'Tenor : 25; Maturity : 1', 'Tenor : 30; Maturity : 1', 'Tenor : 1; Maturity : 1.5', 'Tenor : 2; Maturity : 1.5', 'Tenor : 3; Maturity : 1.5', 'Tenor : 4; Maturity : 1.5', 'Tenor : 5; Maturity : 1.5', 'Tenor : 6; Maturity : 1.5', 'Tenor : 7; Maturity : 1.5', 'Tenor : 8; Maturity : 1.5', 'Tenor : 9; Maturity : 1.5', 'Tenor : 10; Maturity : 1.5', 'Tenor : 15; Maturity : 1.5', 'Tenor : 20; Maturity : 1.5', 'Tenor : 25; Maturity : 1.5', 'Tenor : 30; Maturity : 1.5', 'Tenor : 1; Maturity : 2', 'Tenor : 2; Maturity : 2', 'Tenor : 3; Maturity : 2', 'Tenor : 4; Maturity : 2', 'Tenor : 5; Maturity : 2', 'Tenor : 6; Maturity : 2', 'Tenor : 7; Maturity : 2', 'Tenor : 8; Maturity : 2', 'Tenor : 9; Maturity : 2', 'Tenor : 10; Maturity : 2', 'Tenor : 15; Maturity : 2', 'Tenor : 20; Maturity : 2', 'Tenor : 25; Maturity : 2', 'Tenor : 30; Maturity : 2', 'Tenor : 1; Maturity : 3', 'Tenor : 2; Maturity : 3', 'Tenor : 3; Maturity : 3', 'Tenor : 4; Maturity : 3', 'Tenor : 5; Maturity : 3', 'Tenor : 6; Maturity : 3', 'Tenor : 7; Maturity : 3', 'Tenor : 8; Maturity : 3', 'Tenor : 9; Maturity : 3', 'Tenor : 10; Maturity : 3', 'Tenor : 15; Maturity : 3', 'Tenor : 20; Maturity : 3', 'Tenor : 25; Maturity : 3', 'Tenor : 30; Maturity : 3', 'Tenor : 1; Maturity : 4', 'Tenor : 2; Maturity : 4', 'Tenor : 3; Maturity : 4', 'Tenor : 4; Maturity : 4', 'Tenor : 5; Maturity : 4', 'Tenor : 6; Maturity : 4', 'Tenor : 7; Maturity : 4', 'Tenor : 8; Maturity : 4', 'Tenor : 9; Maturity : 4', 'Tenor : 10; Maturity : 4', 'Tenor : 15; Maturity : 4', 'Tenor : 20; Maturity : 4', 'Tenor : 25; Maturity : 4', 'Tenor : 30; Maturity : 4', 'Tenor : 1; Maturity : 5', 'Tenor : 2; Maturity : 5', 'Tenor : 3; Maturity : 5', 'Tenor : 4; Maturity : 5', 'Tenor : 5; Maturity : 5', 'Tenor : 6; Maturity : 5', 'Tenor : 7; Maturity : 5', 'Tenor : 8; Maturity : 5', 'Tenor : 9; Maturity : 5', 'Tenor : 10; Maturity : 5', 'Tenor : 15; Maturity : 5', 'Tenor : 20; Maturity : 5', 'Tenor : 25; Maturity : 5', 'Tenor : 30; Maturity : 5', 'Tenor : 1; Maturity : 7', 'Tenor : 2; Maturity : 7', 'Tenor : 3; Maturity : 7', 'Tenor : 4; Maturity : 7', 'Tenor : 5; Maturity : 7', 'Tenor : 6; Maturity : 7', 'Tenor : 7; Maturity : 7', 'Tenor : 8; Maturity : 7', 'Tenor : 9; Maturity : 7', 'Tenor : 10; Maturity : 7', 'Tenor : 15; Maturity : 7', 'Tenor : 20; Maturity : 7', 'Tenor : 25; Maturity : 7', 'Tenor : 30; Maturity : 7', 'Tenor : 1; Maturity : 10', 'Tenor : 2; Maturity : 10', 'Tenor : 3; Maturity : 10', 'Tenor : 4; Maturity : 10', 'Tenor : 5; Maturity : 10', 'Tenor : 6; Maturity : 10', 'Tenor : 7; Maturity : 10', 'Tenor : 8; Maturity : 10', 'Tenor : 9; Maturity : 10', 'Tenor : 10; Maturity : 10', 'Tenor : 15; Maturity : 10', 'Tenor : 20; Maturity : 10', 'Tenor : 25; Maturity : 10', 'Tenor : 30; Maturity : 10', 'Tenor : 1; Maturity : 15', 'Tenor : 2; Maturity : 15', 'Tenor : 3; Maturity : 15', 'Tenor : 4; Maturity : 15', 'Tenor : 5; Maturity : 15', 'Tenor : 6; Maturity : 15', 'Tenor : 7; Maturity : 15', 'Tenor : 8; Maturity : 15', 'Tenor : 9; Maturity : 15', 'Tenor : 10; Maturity : 15', 'Tenor : 15; Maturity : 15', 'Tenor : 20; Maturity : 15', 'Tenor : 25; Maturity : 15', 'Tenor : 30; Maturity : 15', 'Tenor : 1; Maturity : 20', 'Tenor : 2; Maturity : 20', 'Tenor : 3; Maturity : 20', 'Tenor : 4; Maturity : 20', 'Tenor : 5; Maturity : 20', 'Tenor : 6; Maturity : 20', 'Tenor : 7; Maturity : 20', 'Tenor : 8; Maturity : 20', 'Tenor : 9; Maturity : 20', 'Tenor : 10; Maturity : 20', 'Tenor : 15; Maturity : 20', 'Tenor : 20; Maturity : 20', 'Tenor : 25; Maturity : 20', 'Tenor : 30; Maturity : 20', 'Tenor : 1; Maturity : 25', 'Tenor : 2; Maturity : 25', 'Tenor : 3; Maturity : 25', 'Tenor : 4; Maturity : 25', 'Tenor : 5; Maturity : 25', 'Tenor : 6; Maturity : 25', 'Tenor : 7; Maturity : 25', 'Tenor : 8; Maturity : 25', 'Tenor : 9; Maturity : 25', 'Tenor : 10; Maturity : 25', 'Tenor : 15; Maturity : 25', 'Tenor : 20; Maturity : 25', 'Tenor : 25; Maturity : 25', 'Tenor : 30; Maturity : 25', 'Tenor : 1; Maturity : 30', 'Tenor : 2; Maturity : 30', 'Tenor : 3; Maturity : 30', 'Tenor : 4; Maturity : 30', 'Tenor : 5; Maturity : 30', 'Tenor : 6; Maturity : 30', 'Tenor : 7; Maturity : 30', 'Tenor : 8; Maturity : 30', 'Tenor : 9; Maturity : 30', 'Tenor : 10; Maturity : 30', 'Tenor : 15; Maturity : 30', 'Tenor : 20; Maturity : 30', 'Tenor : 25; Maturity : 30', 'Tenor : 30; Maturity : 30'],
+        num_rows: 983
+    })
+})
+Surface shape: (494, 224)
+Tenor : 1; Maturity : 0.0833333333333333	Tenor : 2; Maturity : 0.0833333333333333	Tenor : 3; Maturity : 0.0833333333333333	Tenor : 4; Maturity : 0.0833333333333333	Tenor : 5; Maturity : 0.0833333333333333	Tenor : 6; Maturity : 0.0833333333333333	Tenor : 7; Maturity : 0.0833333333333333	Tenor : 8; Maturity : 0.0833333333333333	Tenor : 9; Maturity : 0.0833333333333333	Tenor : 10; Maturity : 0.0833333333333333	...	Tenor : 5; Maturity : 30	Tenor : 6; Maturity : 30	Tenor : 7; Maturity : 30	Tenor : 8; Maturity : 30	Tenor : 9; Maturity : 30	Tenor : 10; Maturity : 30	Tenor : 15; Maturity : 30	Tenor : 20; Maturity : 30	Tenor : 25; Maturity : 30	Tenor : 30; Maturity : 30
+0	0.028565	0.038700	0.040127	0.040762	0.040466	0.038953	0.037553	0.036768	0.036646	0.035595	...	0.331053	0.329056	0.330997	0.324676	0.325758	0.322393	0.345859	0.359162	0.346670	0.337670
+1	0.029334	0.039499	0.040982	0.041638	0.041336	0.039815	0.038397	0.037631	0.037504	0.036437	...	0.336319	0.334434	0.336568	0.330244	0.331462	0.328144	0.351816	0.365197	0.350993	0.340822
+2	0.028696	0.038816	0.040328	0.041042	0.040804	0.039329	0.037968	0.037216	0.037107	0.036062	...	0.333634	0.331707	0.333800	0.327487	0.328710	0.325436	0.348915	0.362236	0.348652	0.339027
+3	0.030854	0.041536	0.043035	0.043605	0.043241	0.041556	0.039977	0.039167	0.038968	0.037793	...	0.336884	0.335106	0.337548	0.331279	0.332811	0.329771	0.353246	0.366100	0.351404	0.340465
+4	0.030406	0.041174	0.042681	0.043266	0.042937	0.041253	0.039685	0.038867	0.038667	0.037492	...	0.333249	0.331426	0.333830	0.327580	0.329123	0.326146	0.349390	0.362048	0.348331	0.338022
+...	...	...	...	...	...	...	...	...	...	...	...	...	...	...	...	...	...	...	...	...	...
+489	0.020498	0.027497	0.029343	0.031089	0.031812	0.031577	0.031602	0.031397	0.031824	0.031444	...	0.337297	0.335116	0.336782	0.330423	0.331625	0.328415	0.351027	0.367999	0.348703	0.341246
+490	0.020970	0.028124	0.029974	0.031684	0.032358	0.032068	0.032022	0.031792	0.032194	0.031783	...	0.338839	0.336695	0.338385	0.332014	0.333177	0.329895	0.352712	0.369517	0.350248	0.342360
+491	0.021622	0.029038	0.030888	0.032538	0.033144	0.032760	0.032601	0.032328	0.032687	0.032220	...	0.338995	0.336886	0.338615	0.332241	0.333384	0.330063	0.353034	0.369456	0.350729	0.342531
+492	0.022761	0.030612	0.032512	0.034111	0.034649	0.034141	0.033833	0.033519	0.033822	0.033274	...	0.340839	0.338845	0.340788	0.334428	0.335700	0.332439	0.355568	0.371336	0.352592	0.343449
+493	0.023542	0.031677	0.033678	0.035316	0.035875	0.035327	0.034974	0.034672	0.034959	0.034372	...	0.343967	0.342115	0.344365	0.338039	0.339576	0.336498	0.359617	0.374938	0.355129	0.344860
+494 rows × 224 columns
+
+Factor shape: (494, 5)
+Explained variance: 0.9997859107422642
+395
+99
+X_train: (392, 3, 5) Y_train: (392, 5)
+X_test : (96, 3, 5) Y_test : (96, 5)
+((392, 3, 5), (392, 5))
+(array([-20.01351   ,   1.7670473 ,   2.4043527 ,   0.28011534,
+         -0.09805918], dtype=float32),
+ array([-16.50414   ,   0.83292955,   3.7835512 ,   0.22095448,
+          0.08227109], dtype=float32),
+ array([-20.01351   ,   1.7670473 ,   2.4043527 ,   0.28011534,
+         -0.09805918], dtype=float32))
+Training Classical ESN...
+Epoch 0 | Loss: 22.427011
+Epoch 10 | Loss: 4.661706
+Epoch 20 | Loss: 2.998521
+Epoch 30 | Loss: 2.289852
+Epoch 40 | Loss: 1.916753
+Epoch 50 | Loss: 1.807339
+Epoch 60 | Loss: 1.585916
+Epoch 70 | Loss: 1.575671
+Epoch 80 | Loss: 1.406397
+Epoch 90 | Loss: 1.402077
+tensor(6.5750)
+Φ=px1
+Φ=px2
+Φ=px3
+Φ=px4
+Φ=px5
+Φ=px6
+Φ=px7
+Φ=px8
+Φ=px9
+Φ=px10
+Φ=0.993734
+Φ=0.020391
+Φ=4.537038
+Φ=4.521887
+Φ=6.106553
+Φ=4.78755
+Φ=3.189858
+Φ=0.668599
+Φ=3.928877
+Φ=5.288364
+Θ=3.18974
+Rx
+Φ=1.249795
+Θ=2.34937
+Rx
+Φ=1.015043
+Θ=5.991016
+Rx
+Φ=5.795824
+Θ=5.771065
+Rx
+Φ=3.76328
+Θ=3.07
+Rx
+Φ=0.702886
+Θ=2.280675
+Rx
+Φ=6.190957
+Θ=5.069116
+Rx
+Φ=1.504523
+Θ=1.513441
+Rx
+Φ=3.564809
+Θ=0.494845
+Rx
+Φ=4.598711
+Θ=5.127225
+Rx
+Φ=6.144858
+Θ=3.347092
+Rx
+Φ=0.790177
+Θ=4.145337
+Rx
+Φ=5.949226
+Θ=1.037523
+Rx
+Φ=3.315472
+Θ=3.811342
+Rx
+Φ=6.059271
+Θ=5.836536
+Rx
+Φ=4.745471
+Θ=4.334566
+Rx
+Φ=4.479591
+Θ=2.506943
+Rx
+Φ=4.220334
+Θ=2.34627
+Rx
+Φ=5.652442
+Θ=2.836771
+Rx
+Φ=1.557637
+Θ=0.402287
+Rx
+Φ=0.132162
+Θ=3.480392
+Rx
+Φ=3.697278
+Θ=0.045181
+Rx
+Φ=4.447496
+Θ=0.369915
+Rx
+Φ=0.423489
+Θ=0.197373
+Rx
+Φ=2.076143
+Θ=3.230538
+Rx
+Φ=1.749724
+Θ=3.049949
+Rx
+Φ=3.388107
+Θ=4.544958
+Rx
+Φ=5.544176
+Θ=3.620445
+Rx
+Φ=1.526797
+Θ=2.971777
+Rx
+Φ=2.557633
+Θ=0.592666
+Rx
+Φ=4.140511
+Θ=2.226117
+Rx
+Φ=2.583032
+Θ=5.427646
+Rx
+Φ=0.340368
+Θ=4.105782
+Rx
+Φ=4.060067
+Θ=0.380841
+Rx
+Φ=4.575501
+Θ=5.030271
+Rx
+Φ=0.686558
+Θ=1.203796
+Rx
+Φ=3.369583
+Θ=0.880791
+Rx
+Φ=1.152889
+Θ=2.906778
+Rx
+Φ=5.494557
+Θ=0.473657
+Rx
+Φ=5.076953
+Θ=5.378199
+Rx
+Φ=0.615179
+Θ=4.097547
+Rx
+Φ=3.396614
+Θ=0.092726
+Rx
+Φ=0.585987
+Θ=4.734792
+Rx
+Φ=1.485216
+Θ=2.553575
+Rx
+Φ=3.024464
+Θ=5.432759
+Rx
+Φ=5.670216
+Φ=px11
+Φ=px12
+Φ=px13
+Φ=px14
+Φ=px15
+Φ=px16
+Φ=px17
+Φ=px18
+Φ=px19
+Φ=px20
+Φ=0.993734
+Φ=0.020391
+Φ=4.537038
+Φ=4.521887
+Φ=6.106553
+Φ=4.78755
+Φ=3.189858
+Φ=0.668599
+Φ=3.928877
+Φ=5.288364
+Θ=3.18974
+Rx
+Φ=1.249795
+Θ=2.34937
+Rx
+Φ=1.015043
+Θ=5.991016
+Rx
+Φ=5.795824
+Θ=5.771065
+Rx
+Φ=3.76328
+Θ=3.07
+Rx
+Φ=0.702886
+Θ=2.280675
+Rx
+Φ=6.190957
+Θ=5.069116
+Rx
+Φ=1.504523
+Θ=1.513441
+Rx
+Φ=3.564809
+Θ=0.494845
+Rx
+Φ=4.598711
+Θ=5.127225
+Rx
+Φ=6.144858
+Θ=3.347092
+Rx
+Φ=0.790177
+Θ=4.145337
+Rx
+Φ=5.949226
+Θ=1.037523
+Rx
+Φ=3.315472
+Θ=3.811342
+Rx
+Φ=6.059271
+Θ=5.836536
+Rx
+Φ=4.745471
+Θ=4.334566
+Rx
+Φ=4.479591
+Θ=2.506943
+Rx
+Φ=4.220334
+Θ=2.34627
+Rx
+Φ=5.652442
+Θ=2.836771
+Rx
+Φ=1.557637
+Θ=0.402287
+Rx
+Φ=0.132162
+Θ=3.480392
+Rx
+Φ=3.697278
+Θ=0.045181
+Rx
+Φ=4.447496
+Θ=0.369915
+Rx
+Φ=0.423489
+Θ=0.197373
+Rx
+Φ=2.076143
+Θ=3.230538
+Rx
+Φ=1.749724
+Θ=3.049949
+Rx
+Φ=3.388107
+Θ=4.544958
+Rx
+Φ=5.544176
+Θ=3.620445
+Rx
+Φ=1.526797
+Θ=2.971777
+Rx
+Φ=2.557633
+Θ=0.592666
+Rx
+Φ=4.140511
+Θ=2.226117
+Rx
+Φ=2.583032
+Θ=5.427646
+Rx
+Φ=0.340368
+Θ=4.105782
+Rx
+Φ=4.060067
+Θ=0.380841
+Rx
+Φ=4.575501
+Θ=5.030271
+Rx
+Φ=0.686558
+Θ=1.203796
+Rx
+Φ=3.369583
+Θ=0.880791
+Rx
+Φ=1.152889
+Θ=2.906778
+Rx
+Φ=5.494557
+Θ=0.473657
+Rx
+Φ=5.076953
+Θ=5.378199
+Rx
+Φ=0.615179
+Θ=4.097547
+Rx
+Φ=3.396614
+Θ=0.092726
+Rx
+Φ=0.585987
+Θ=4.734792
+Rx
+Φ=1.485216
+Θ=2.553575
+Rx
+Φ=3.024464
+Θ=5.432759
+Rx
+Φ=5.670216
+Φ=px21
+Φ=px22
+Φ=px23
+Φ=px24
+Φ=px25
+Φ=px26
+Φ=px27
+Φ=px28
+Φ=px29
+Φ=px30
+Φ=0.993734
+Φ=0.020391
+Φ=4.537038
+Φ=4.521887
+Φ=6.106553
+Φ=4.78755
+Φ=3.189858
+Φ=0.668599
+Φ=3.928877
+Φ=5.288364
+Θ=3.18974
+Rx
+Φ=1.249795
+Θ=2.34937
+Rx
+Φ=1.015043
+Θ=5.991016
+Rx
+Φ=5.795824
+Θ=5.771065
+Rx
+Φ=3.76328
+Θ=3.07
+Rx
+Φ=0.702886
+Θ=2.280675
+Rx
+Φ=6.190957
+Θ=5.069116
+Rx
+Φ=1.504523
+Θ=1.513441
+Rx
+Φ=3.564809
+Θ=0.494845
+Rx
+Φ=4.598711
+Θ=5.127225
+Rx
+Φ=6.144858
+Θ=3.347092
+Rx
+Φ=0.790177
+Θ=4.145337
+Rx
+Φ=5.949226
+Θ=1.037523
+Rx
+Φ=3.315472
+Θ=3.811342
+Rx
+Φ=6.059271
+Θ=5.836536
+Rx
+Φ=4.745471
+Θ=4.334566
+Rx
+Φ=4.479591
+Θ=2.506943
+Rx
+Φ=4.220334
+Θ=2.34627
+Rx
+Φ=5.652442
+Θ=2.836771
+Rx
+Φ=1.557637
+Θ=0.402287
+Rx
+Φ=0.132162
+Θ=3.480392
+Rx
+Φ=3.697278
+Θ=0.045181
+Rx
+Φ=4.447496
+Θ=0.369915
+Rx
+Φ=0.423489
+Θ=0.197373
+Rx
+Φ=2.076143
+Θ=3.230538
+Rx
+Φ=1.749724
+Θ=3.049949
+Rx
+Φ=3.388107
+Θ=4.544958
+Rx
+Φ=5.544176
+Θ=3.620445
+Rx
+Φ=1.526797
+Θ=2.971777
+Rx
+Φ=2.557633
+Θ=0.592666
+Rx
+Φ=4.140511
+Θ=2.226117
+Rx
+Φ=2.583032
+Θ=5.427646
+Rx
+Φ=0.340368
+Θ=4.105782
+Rx
+Φ=4.060067
+Θ=0.380841
+Rx
+Φ=4.575501
+Θ=5.030271
+Rx
+Φ=0.686558
+Θ=1.203796
+Rx
+Φ=3.369583
+Θ=0.880791
+Rx
+Φ=1.152889
+Θ=2.906778
+Rx
+Φ=5.494557
+Θ=0.473657
+Rx
+Φ=5.076953
+Θ=5.378199
+Rx
+Φ=0.615179
+Θ=4.097547
+Rx
+Φ=3.396614
+Θ=0.092726
+Rx
+Φ=0.585987
+Θ=4.734792
+Rx
+Φ=1.485216
+Θ=2.553575
+Rx
+Φ=3.024464
+Θ=5.432759
+Rx
+Φ=5.670216
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+0
+Training Quantum Reservoir...
+shapes mid: (392, 126) (392, 5)
+Readout Type         | PCA MSE      | Real Space MSE 
+-------------------------------------------------------
+shape of predictions_np: (392, 5)
+shape of Y_targets: (392, 5)
+Ridge (L2) Training Complete | Final MSE: 4.6757788658 | Surface MSE in real space: 0.0000404018
+Ridge (L2) Training Complete | Final RMSE: 2.1623549461 | Surface RMSE in real space: 0.0063562415
+Ridge (L2) Training Complete | Final MAE: 1.1067106724 | Surface MAE in real space: 0.0043144379
+Ridge (L2) Training Complete | Final QLIKE: 200761184.0000000000 | Surface QLIKE in real space: 0.0004149184
+shape of predictions_np: (392, 5)
+shape of Y_targets: (392, 5)
+Linear Regression Training Complete | Final MSE: 1.6797549725 | Surface MSE in real space: 0.0000144482
+Linear Regression Training Complete | Final RMSE: 1.2960536480 | Surface RMSE in real space: 0.0038010836
+Linear Regression Training Complete | Final MAE: 0.7198122740 | Surface MAE in real space: 0.0027237502
+Linear Regression Training Complete | Final QLIKE: 136699072.0000000000 | Surface QLIKE in real space: 0.0001594914
+shape of predictions_np: (392, 5)
+shape of Y_targets: (392, 5)
+Random Forest Training Complete | Final MSE: 0.7845976791 | Surface MSE in real space: 0.0000067412
+Random Forest Training Complete | Final RMSE: 0.8857751854 | Surface RMSE in real space: 0.0025963872
+Random Forest Training Complete | Final MAE: 0.5255808795 | Surface MAE in real space: 0.0018861048
+Random Forest Training Complete | Final QLIKE: 33797422.8494514823 | Surface QLIKE in real space: 0.0000799996
+shape of predictions_np: (392, 5)
+shape of Y_targets: (392, 5)
+Decision Tree Training Complete | Final MSE: 0.0476625093 | Surface MSE in real space: 0.0000004180
+Decision Tree Training Complete | Final RMSE: 0.2183174507 | Surface RMSE in real space: 0.0006465460
+Decision Tree Training Complete | Final MAE: 0.0640093242 | Surface MAE in real space: 0.0002249443
+Decision Tree Training Complete | Final QLIKE: 8481552.8120209929 | Surface QLIKE in real space: 0.0000057828
+Ridge (L2) Training Complete | Final MSE: 8.458262 | Surface MSE in real space: 0.000076
+Ridge (L2) Training Complete | Final RMSE: 2.908309 | Surface RMSE in real space: 0.008701
+Ridge (L2) Training Complete | Final MAE: 1.718603 | Surface MAE in real space: 0.006376
+Ridge (L2) Training Complete | Final QLIKE: 448191168.000000 | Surface QLIKE in real space: 0.001017
+----------
+Linear Regression Training Complete | Final MSE: 48.986156 | Surface MSE in real space: 0.000348
+Linear Regression Training Complete | Final RMSE: 6.999011 | Surface RMSE in real space: 0.018664
+Linear Regression Training Complete | Final MAE: 3.595703 | Surface MAE in real space: 0.012321
+Linear Regression Training Complete | Final QLIKE: 671179456.000000 | Surface QLIKE in real space: 955739.263276
+----------
+Random Forest Training Complete | Final MSE: 11.000632 | Surface MSE in real space: 0.000087
+Random Forest Training Complete | Final RMSE: 3.316720 | Surface RMSE in real space: 0.009337
+Random Forest Training Complete | Final MAE: 1.880948 | Surface MAE in real space: 0.006904
+Random Forest Training Complete | Final QLIKE: 686135181.598269 | Surface QLIKE in real space: 0.001522
+----------
+Decision Tree Training Complete | Final MSE: 18.535192 | Surface MSE in real space: 0.000185
+Decision Tree Training Complete | Final RMSE: 4.305252 | Surface RMSE in real space: 0.013607
+Decision Tree Training Complete | Final MAE: 2.581588 | Surface MAE in real space: 0.009765
+Decision Tree Training Complete | Final QLIKE: 647354482.355001 | Surface QLIKE in real space: 0.001850
+----------
+---------------------------------------------------------------------------
+ValueError                                Traceback (most recent call last)
+Cell In[584], line 31
+     29 Y_test_surface_scaled = pca.inverse_transform(Y_test_np)
+     30 # Y_pred_surface_scaled = pca.inverse_transform(Y_pred_np.reshape(1, -1))
+---> 31 Y_pred_surface_scaled = pca.inverse_transform(Y_pred_np.reshape(1, -1))
+     32 # Y_test_surface_scaled = pca.inverse_transform(Y_test_np.reshape(1, -1))
+     33 
+     34 # Undo scaling
+     35 Y_pred_surface = scaler.inverse_transform(Y_pred_surface_scaled)
+
+File ~/Q-volution 2026/.venv/lib/python3.11/site-packages/sklearn/decomposition/_base.py:205, in _BasePCA.inverse_transform(self, X)
+    203     return X @ scaled_components + self.mean_
+    204 else:
+--> 205     return X @ self.components_ + self.mean_
+
+ValueError: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 5 is different from 126)
+(torch.Size([96, 5]), torch.Size([96, 1, 5]))
+1
+-----For Ridge (L2)-----
+tensor(106.6443)
+tensor(46.7809)
+tensor(9.2380)
+tensor(0.2753)
+tensor(0.0157)
+-----For Linear Regression-----
+tensor(167.6563)
+tensor(74.2125)
+tensor(73.0542)
+tensor(1.4343)
+tensor(0.1613)
+-----For Random Forest-----
+tensor(114.1033, dtype=torch.float64)
+tensor(26.6888, dtype=torch.float64)
+tensor(7.4633, dtype=torch.float64)
+tensor(0.2233, dtype=torch.float64)
+tensor(0.0041, dtype=torch.float64)
+-----For Decision Tree-----
+tensor(121.3448, dtype=torch.float64)
+tensor(93.0602, dtype=torch.float64)
+tensor(16.1444, dtype=torch.float64)
+tensor(0.2910, dtype=torch.float64)
+tensor(0.0229, dtype=torch.float64)
+/Users/soardr/Q-volution 2026/.venv/lib/python3.11/site-packages/torch/nn/modules/loss.py:626: UserWarning: Using a target size (torch.Size([1])) that is different to the input size (torch.Size([96])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+(392, 96)
+392
+list
+Ridge (L2) Training Complete | Final MSE: 4.675779 | Surface MSE in real space: 0.000040
+Ridge (L2) Training Complete | Final RMSE: 2.162355 | Surface RMSE in real space: 0.006356
+Ridge (L2) Training Complete | Final MAE: 1.106711 | Surface MAE in real space: 0.004314
+Ridge (L2) Training Complete | Final QLIKE: 200761168.000000 | Surface QLIKE in real space: 0.000415
+---------
+Linear Regression Training Complete | Final MSE: 1.679755 | Surface MSE in real space: 0.000014
+Linear Regression Training Complete | Final RMSE: 1.296054 | Surface RMSE in real space: 0.003801
+Linear Regression Training Complete | Final MAE: 0.719812 | Surface MAE in real space: 0.002724
+Linear Regression Training Complete | Final QLIKE: 136699072.000000 | Surface QLIKE in real space: 0.000159
+---------
+Random Forest Training Complete | Final MSE: 0.784598 | Surface MSE in real space: 0.000007
+Random Forest Training Complete | Final RMSE: 0.885775 | Surface RMSE in real space: 0.002596
+Random Forest Training Complete | Final MAE: 0.525581 | Surface MAE in real space: 0.001886
+Random Forest Training Complete | Final QLIKE: 33797422.849451 | Surface QLIKE in real space: 0.000080
+---------
+Decision Tree Training Complete | Final MSE: 0.047663 | Surface MSE in real space: 0.000000
+Decision Tree Training Complete | Final RMSE: 0.218317 | Surface RMSE in real space: 0.000647
+Decision Tree Training Complete | Final MAE: 0.064009 | Surface MAE in real space: 0.000225
+Decision Tree Training Complete | Final QLIKE: 8481552.812021 | Surface QLIKE in real space: 0.000006
+---------
