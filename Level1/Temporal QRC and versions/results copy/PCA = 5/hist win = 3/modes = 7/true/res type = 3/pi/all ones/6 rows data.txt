@@ -1,0 +1,806 @@
+datasets.arrow_dataset.Dataset
+DatasetDict({
+    train: Dataset({
+        features: ['Date', 'Tenor : 1; Maturity : 0.0833333333333333', 'Tenor : 2; Maturity : 0.0833333333333333', 'Tenor : 3; Maturity : 0.0833333333333333', 'Tenor : 4; Maturity : 0.0833333333333333', 'Tenor : 5; Maturity : 0.0833333333333333', 'Tenor : 6; Maturity : 0.0833333333333333', 'Tenor : 7; Maturity : 0.0833333333333333', 'Tenor : 8; Maturity : 0.0833333333333333', 'Tenor : 9; Maturity : 0.0833333333333333', 'Tenor : 10; Maturity : 0.0833333333333333', 'Tenor : 15; Maturity : 0.0833333333333333', 'Tenor : 20; Maturity : 0.0833333333333333', 'Tenor : 25; Maturity : 0.0833333333333333', 'Tenor : 30; Maturity : 0.0833333333333333', 'Tenor : 1; Maturity : 0.25', 'Tenor : 2; Maturity : 0.25', 'Tenor : 3; Maturity : 0.25', 'Tenor : 4; Maturity : 0.25', 'Tenor : 5; Maturity : 0.25', 'Tenor : 6; Maturity : 0.25', 'Tenor : 7; Maturity : 0.25', 'Tenor : 8; Maturity : 0.25', 'Tenor : 9; Maturity : 0.25', 'Tenor : 10; Maturity : 0.25', 'Tenor : 15; Maturity : 0.25', 'Tenor : 20; Maturity : 0.25', 'Tenor : 25; Maturity : 0.25', 'Tenor : 30; Maturity : 0.25', 'Tenor : 1; Maturity : 0.5', 'Tenor : 2; Maturity : 0.5', 'Tenor : 3; Maturity : 0.5', 'Tenor : 4; Maturity : 0.5', 'Tenor : 5; Maturity : 0.5', 'Tenor : 6; Maturity : 0.5', 'Tenor : 7; Maturity : 0.5', 'Tenor : 8; Maturity : 0.5', 'Tenor : 9; Maturity : 0.5', 'Tenor : 10; Maturity : 0.5', 'Tenor : 15; Maturity : 0.5', 'Tenor : 20; Maturity : 0.5', 'Tenor : 25; Maturity : 0.5', 'Tenor : 30; Maturity : 0.5', 'Tenor : 1; Maturity : 0.75', 'Tenor : 2; Maturity : 0.75', 'Tenor : 3; Maturity : 0.75', 'Tenor : 4; Maturity : 0.75', 'Tenor : 5; Maturity : 0.75', 'Tenor : 6; Maturity : 0.75', 'Tenor : 7; Maturity : 0.75', 'Tenor : 8; Maturity : 0.75', 'Tenor : 9; Maturity : 0.75', 'Tenor : 10; Maturity : 0.75', 'Tenor : 15; Maturity : 0.75', 'Tenor : 20; Maturity : 0.75', 'Tenor : 25; Maturity : 0.75', 'Tenor : 30; Maturity : 0.75', 'Tenor : 1; Maturity : 1', 'Tenor : 2; Maturity : 1', 'Tenor : 3; Maturity : 1', 'Tenor : 4; Maturity : 1', 'Tenor : 5; Maturity : 1', 'Tenor : 6; Maturity : 1', 'Tenor : 7; Maturity : 1', 'Tenor : 8; Maturity : 1', 'Tenor : 9; Maturity : 1', 'Tenor : 10; Maturity : 1', 'Tenor : 15; Maturity : 1', 'Tenor : 20; Maturity : 1', 'Tenor : 25; Maturity : 1', 'Tenor : 30; Maturity : 1', 'Tenor : 1; Maturity : 1.5', 'Tenor : 2; Maturity : 1.5', 'Tenor : 3; Maturity : 1.5', 'Tenor : 4; Maturity : 1.5', 'Tenor : 5; Maturity : 1.5', 'Tenor : 6; Maturity : 1.5', 'Tenor : 7; Maturity : 1.5', 'Tenor : 8; Maturity : 1.5', 'Tenor : 9; Maturity : 1.5', 'Tenor : 10; Maturity : 1.5', 'Tenor : 15; Maturity : 1.5', 'Tenor : 20; Maturity : 1.5', 'Tenor : 25; Maturity : 1.5', 'Tenor : 30; Maturity : 1.5', 'Tenor : 1; Maturity : 2', 'Tenor : 2; Maturity : 2', 'Tenor : 3; Maturity : 2', 'Tenor : 4; Maturity : 2', 'Tenor : 5; Maturity : 2', 'Tenor : 6; Maturity : 2', 'Tenor : 7; Maturity : 2', 'Tenor : 8; Maturity : 2', 'Tenor : 9; Maturity : 2', 'Tenor : 10; Maturity : 2', 'Tenor : 15; Maturity : 2', 'Tenor : 20; Maturity : 2', 'Tenor : 25; Maturity : 2', 'Tenor : 30; Maturity : 2', 'Tenor : 1; Maturity : 3', 'Tenor : 2; Maturity : 3', 'Tenor : 3; Maturity : 3', 'Tenor : 4; Maturity : 3', 'Tenor : 5; Maturity : 3', 'Tenor : 6; Maturity : 3', 'Tenor : 7; Maturity : 3', 'Tenor : 8; Maturity : 3', 'Tenor : 9; Maturity : 3', 'Tenor : 10; Maturity : 3', 'Tenor : 15; Maturity : 3', 'Tenor : 20; Maturity : 3', 'Tenor : 25; Maturity : 3', 'Tenor : 30; Maturity : 3', 'Tenor : 1; Maturity : 4', 'Tenor : 2; Maturity : 4', 'Tenor : 3; Maturity : 4', 'Tenor : 4; Maturity : 4', 'Tenor : 5; Maturity : 4', 'Tenor : 6; Maturity : 4', 'Tenor : 7; Maturity : 4', 'Tenor : 8; Maturity : 4', 'Tenor : 9; Maturity : 4', 'Tenor : 10; Maturity : 4', 'Tenor : 15; Maturity : 4', 'Tenor : 20; Maturity : 4', 'Tenor : 25; Maturity : 4', 'Tenor : 30; Maturity : 4', 'Tenor : 1; Maturity : 5', 'Tenor : 2; Maturity : 5', 'Tenor : 3; Maturity : 5', 'Tenor : 4; Maturity : 5', 'Tenor : 5; Maturity : 5', 'Tenor : 6; Maturity : 5', 'Tenor : 7; Maturity : 5', 'Tenor : 8; Maturity : 5', 'Tenor : 9; Maturity : 5', 'Tenor : 10; Maturity : 5', 'Tenor : 15; Maturity : 5', 'Tenor : 20; Maturity : 5', 'Tenor : 25; Maturity : 5', 'Tenor : 30; Maturity : 5', 'Tenor : 1; Maturity : 7', 'Tenor : 2; Maturity : 7', 'Tenor : 3; Maturity : 7', 'Tenor : 4; Maturity : 7', 'Tenor : 5; Maturity : 7', 'Tenor : 6; Maturity : 7', 'Tenor : 7; Maturity : 7', 'Tenor : 8; Maturity : 7', 'Tenor : 9; Maturity : 7', 'Tenor : 10; Maturity : 7', 'Tenor : 15; Maturity : 7', 'Tenor : 20; Maturity : 7', 'Tenor : 25; Maturity : 7', 'Tenor : 30; Maturity : 7', 'Tenor : 1; Maturity : 10', 'Tenor : 2; Maturity : 10', 'Tenor : 3; Maturity : 10', 'Tenor : 4; Maturity : 10', 'Tenor : 5; Maturity : 10', 'Tenor : 6; Maturity : 10', 'Tenor : 7; Maturity : 10', 'Tenor : 8; Maturity : 10', 'Tenor : 9; Maturity : 10', 'Tenor : 10; Maturity : 10', 'Tenor : 15; Maturity : 10', 'Tenor : 20; Maturity : 10', 'Tenor : 25; Maturity : 10', 'Tenor : 30; Maturity : 10', 'Tenor : 1; Maturity : 15', 'Tenor : 2; Maturity : 15', 'Tenor : 3; Maturity : 15', 'Tenor : 4; Maturity : 15', 'Tenor : 5; Maturity : 15', 'Tenor : 6; Maturity : 15', 'Tenor : 7; Maturity : 15', 'Tenor : 8; Maturity : 15', 'Tenor : 9; Maturity : 15', 'Tenor : 10; Maturity : 15', 'Tenor : 15; Maturity : 15', 'Tenor : 20; Maturity : 15', 'Tenor : 25; Maturity : 15', 'Tenor : 30; Maturity : 15', 'Tenor : 1; Maturity : 20', 'Tenor : 2; Maturity : 20', 'Tenor : 3; Maturity : 20', 'Tenor : 4; Maturity : 20', 'Tenor : 5; Maturity : 20', 'Tenor : 6; Maturity : 20', 'Tenor : 7; Maturity : 20', 'Tenor : 8; Maturity : 20', 'Tenor : 9; Maturity : 20', 'Tenor : 10; Maturity : 20', 'Tenor : 15; Maturity : 20', 'Tenor : 20; Maturity : 20', 'Tenor : 25; Maturity : 20', 'Tenor : 30; Maturity : 20', 'Tenor : 1; Maturity : 25', 'Tenor : 2; Maturity : 25', 'Tenor : 3; Maturity : 25', 'Tenor : 4; Maturity : 25', 'Tenor : 5; Maturity : 25', 'Tenor : 6; Maturity : 25', 'Tenor : 7; Maturity : 25', 'Tenor : 8; Maturity : 25', 'Tenor : 9; Maturity : 25', 'Tenor : 10; Maturity : 25', 'Tenor : 15; Maturity : 25', 'Tenor : 20; Maturity : 25', 'Tenor : 25; Maturity : 25', 'Tenor : 30; Maturity : 25', 'Tenor : 1; Maturity : 30', 'Tenor : 2; Maturity : 30', 'Tenor : 3; Maturity : 30', 'Tenor : 4; Maturity : 30', 'Tenor : 5; Maturity : 30', 'Tenor : 6; Maturity : 30', 'Tenor : 7; Maturity : 30', 'Tenor : 8; Maturity : 30', 'Tenor : 9; Maturity : 30', 'Tenor : 10; Maturity : 30', 'Tenor : 15; Maturity : 30', 'Tenor : 20; Maturity : 30', 'Tenor : 25; Maturity : 30', 'Tenor : 30; Maturity : 30'],
+        num_rows: 983
+    })
+})
+Surface shape: (494, 224)
+Tenor : 1; Maturity : 0.0833333333333333	Tenor : 2; Maturity : 0.0833333333333333	Tenor : 3; Maturity : 0.0833333333333333	Tenor : 4; Maturity : 0.0833333333333333	Tenor : 5; Maturity : 0.0833333333333333	Tenor : 6; Maturity : 0.0833333333333333	Tenor : 7; Maturity : 0.0833333333333333	Tenor : 8; Maturity : 0.0833333333333333	Tenor : 9; Maturity : 0.0833333333333333	Tenor : 10; Maturity : 0.0833333333333333	...	Tenor : 5; Maturity : 30	Tenor : 6; Maturity : 30	Tenor : 7; Maturity : 30	Tenor : 8; Maturity : 30	Tenor : 9; Maturity : 30	Tenor : 10; Maturity : 30	Tenor : 15; Maturity : 30	Tenor : 20; Maturity : 30	Tenor : 25; Maturity : 30	Tenor : 30; Maturity : 30
+0	0.028565	0.038700	0.040127	0.040762	0.040466	0.038953	0.037553	0.036768	0.036646	0.035595	...	0.331053	0.329056	0.330997	0.324676	0.325758	0.322393	0.345859	0.359162	0.346670	0.337670
+1	0.029334	0.039499	0.040982	0.041638	0.041336	0.039815	0.038397	0.037631	0.037504	0.036437	...	0.336319	0.334434	0.336568	0.330244	0.331462	0.328144	0.351816	0.365197	0.350993	0.340822
+2	0.028696	0.038816	0.040328	0.041042	0.040804	0.039329	0.037968	0.037216	0.037107	0.036062	...	0.333634	0.331707	0.333800	0.327487	0.328710	0.325436	0.348915	0.362236	0.348652	0.339027
+3	0.030854	0.041536	0.043035	0.043605	0.043241	0.041556	0.039977	0.039167	0.038968	0.037793	...	0.336884	0.335106	0.337548	0.331279	0.332811	0.329771	0.353246	0.366100	0.351404	0.340465
+4	0.030406	0.041174	0.042681	0.043266	0.042937	0.041253	0.039685	0.038867	0.038667	0.037492	...	0.333249	0.331426	0.333830	0.327580	0.329123	0.326146	0.349390	0.362048	0.348331	0.338022
+...	...	...	...	...	...	...	...	...	...	...	...	...	...	...	...	...	...	...	...	...	...
+489	0.020498	0.027497	0.029343	0.031089	0.031812	0.031577	0.031602	0.031397	0.031824	0.031444	...	0.337297	0.335116	0.336782	0.330423	0.331625	0.328415	0.351027	0.367999	0.348703	0.341246
+490	0.020970	0.028124	0.029974	0.031684	0.032358	0.032068	0.032022	0.031792	0.032194	0.031783	...	0.338839	0.336695	0.338385	0.332014	0.333177	0.329895	0.352712	0.369517	0.350248	0.342360
+491	0.021622	0.029038	0.030888	0.032538	0.033144	0.032760	0.032601	0.032328	0.032687	0.032220	...	0.338995	0.336886	0.338615	0.332241	0.333384	0.330063	0.353034	0.369456	0.350729	0.342531
+492	0.022761	0.030612	0.032512	0.034111	0.034649	0.034141	0.033833	0.033519	0.033822	0.033274	...	0.340839	0.338845	0.340788	0.334428	0.335700	0.332439	0.355568	0.371336	0.352592	0.343449
+493	0.023542	0.031677	0.033678	0.035316	0.035875	0.035327	0.034974	0.034672	0.034959	0.034372	...	0.343967	0.342115	0.344365	0.338039	0.339576	0.336498	0.359617	0.374938	0.355129	0.344860
+494 rows × 224 columns
+
+Factor shape: (494, 5)
+Explained variance: 0.9997859107422642
+395
+99
+X_train: (392, 3, 5) Y_train: (392, 5)
+X_test : (96, 3, 5) Y_test : (96, 5)
+((392, 3, 5), (392, 5))
+(array([-20.01351   ,   1.7670473 ,   2.4043527 ,   0.28011534,
+         -0.09805918], dtype=float32),
+ array([-16.50414   ,   0.83292955,   3.7835512 ,   0.22095448,
+          0.08227109], dtype=float32),
+ array([-20.01351   ,   1.7670473 ,   2.4043527 ,   0.28011534,
+         -0.09805918], dtype=float32))
+Training Classical ESN...
+Epoch 0 | Loss: 22.427011
+Epoch 10 | Loss: 4.661706
+Epoch 20 | Loss: 2.998521
+Epoch 30 | Loss: 2.289852
+Epoch 40 | Loss: 1.916753
+Epoch 50 | Loss: 1.807339
+Epoch 60 | Loss: 1.585916
+Epoch 70 | Loss: 1.575671
+Epoch 80 | Loss: 1.406397
+Epoch 90 | Loss: 1.402077
+tensor(6.5750)
+Φ=px1
+Φ=px2
+Φ=px3
+Φ=px4
+Φ=px5
+Φ=px6
+Φ=px7
+Φ=px8
+Φ=px9
+Φ=px10
+Φ=0.993734
+Φ=0.020391
+Φ=4.537038
+Φ=4.521887
+Φ=6.106553
+Φ=4.78755
+Φ=3.189858
+Φ=0.668599
+Φ=3.928877
+Φ=5.288364
+Θ=3.18974
+Rx
+Φ=1.249795
+Θ=2.34937
+Rx
+Φ=1.015043
+Θ=5.991016
+Rx
+Φ=5.795824
+Θ=5.771065
+Rx
+Φ=3.76328
+Θ=3.07
+Rx
+Φ=0.702886
+Θ=2.280675
+Rx
+Φ=6.190957
+Θ=5.069116
+Rx
+Φ=1.504523
+Θ=1.513441
+Rx
+Φ=3.564809
+Θ=0.494845
+Rx
+Φ=4.598711
+Θ=5.127225
+Rx
+Φ=6.144858
+Θ=3.347092
+Rx
+Φ=0.790177
+Θ=4.145337
+Rx
+Φ=5.949226
+Θ=1.037523
+Rx
+Φ=3.315472
+Θ=3.811342
+Rx
+Φ=6.059271
+Θ=5.836536
+Rx
+Φ=4.745471
+Θ=4.334566
+Rx
+Φ=4.479591
+Θ=2.506943
+Rx
+Φ=4.220334
+Θ=2.34627
+Rx
+Φ=5.652442
+Θ=2.836771
+Rx
+Φ=1.557637
+Θ=0.402287
+Rx
+Φ=0.132162
+Θ=3.480392
+Rx
+Φ=3.697278
+Θ=0.045181
+Rx
+Φ=4.447496
+Θ=0.369915
+Rx
+Φ=0.423489
+Θ=0.197373
+Rx
+Φ=2.076143
+Θ=3.230538
+Rx
+Φ=1.749724
+Θ=3.049949
+Rx
+Φ=3.388107
+Θ=4.544958
+Rx
+Φ=5.544176
+Θ=3.620445
+Rx
+Φ=1.526797
+Θ=2.971777
+Rx
+Φ=2.557633
+Θ=0.592666
+Rx
+Φ=4.140511
+Θ=2.226117
+Rx
+Φ=2.583032
+Θ=5.427646
+Rx
+Φ=0.340368
+Θ=4.105782
+Rx
+Φ=4.060067
+Θ=0.380841
+Rx
+Φ=4.575501
+Θ=5.030271
+Rx
+Φ=0.686558
+Θ=1.203796
+Rx
+Φ=3.369583
+Θ=0.880791
+Rx
+Φ=1.152889
+Θ=2.906778
+Rx
+Φ=5.494557
+Θ=0.473657
+Rx
+Φ=5.076953
+Θ=5.378199
+Rx
+Φ=0.615179
+Θ=4.097547
+Rx
+Φ=3.396614
+Θ=0.092726
+Rx
+Φ=0.585987
+Θ=4.734792
+Rx
+Φ=1.485216
+Θ=2.553575
+Rx
+Φ=3.024464
+Θ=5.432759
+Rx
+Φ=5.670216
+Φ=px11
+Φ=px12
+Φ=px13
+Φ=px14
+Φ=px15
+Φ=px16
+Φ=px17
+Φ=px18
+Φ=px19
+Φ=px20
+Φ=0.993734
+Φ=0.020391
+Φ=4.537038
+Φ=4.521887
+Φ=6.106553
+Φ=4.78755
+Φ=3.189858
+Φ=0.668599
+Φ=3.928877
+Φ=5.288364
+Θ=3.18974
+Rx
+Φ=1.249795
+Θ=2.34937
+Rx
+Φ=1.015043
+Θ=5.991016
+Rx
+Φ=5.795824
+Θ=5.771065
+Rx
+Φ=3.76328
+Θ=3.07
+Rx
+Φ=0.702886
+Θ=2.280675
+Rx
+Φ=6.190957
+Θ=5.069116
+Rx
+Φ=1.504523
+Θ=1.513441
+Rx
+Φ=3.564809
+Θ=0.494845
+Rx
+Φ=4.598711
+Θ=5.127225
+Rx
+Φ=6.144858
+Θ=3.347092
+Rx
+Φ=0.790177
+Θ=4.145337
+Rx
+Φ=5.949226
+Θ=1.037523
+Rx
+Φ=3.315472
+Θ=3.811342
+Rx
+Φ=6.059271
+Θ=5.836536
+Rx
+Φ=4.745471
+Θ=4.334566
+Rx
+Φ=4.479591
+Θ=2.506943
+Rx
+Φ=4.220334
+Θ=2.34627
+Rx
+Φ=5.652442
+Θ=2.836771
+Rx
+Φ=1.557637
+Θ=0.402287
+Rx
+Φ=0.132162
+Θ=3.480392
+Rx
+Φ=3.697278
+Θ=0.045181
+Rx
+Φ=4.447496
+Θ=0.369915
+Rx
+Φ=0.423489
+Θ=0.197373
+Rx
+Φ=2.076143
+Θ=3.230538
+Rx
+Φ=1.749724
+Θ=3.049949
+Rx
+Φ=3.388107
+Θ=4.544958
+Rx
+Φ=5.544176
+Θ=3.620445
+Rx
+Φ=1.526797
+Θ=2.971777
+Rx
+Φ=2.557633
+Θ=0.592666
+Rx
+Φ=4.140511
+Θ=2.226117
+Rx
+Φ=2.583032
+Θ=5.427646
+Rx
+Φ=0.340368
+Θ=4.105782
+Rx
+Φ=4.060067
+Θ=0.380841
+Rx
+Φ=4.575501
+Θ=5.030271
+Rx
+Φ=0.686558
+Θ=1.203796
+Rx
+Φ=3.369583
+Θ=0.880791
+Rx
+Φ=1.152889
+Θ=2.906778
+Rx
+Φ=5.494557
+Θ=0.473657
+Rx
+Φ=5.076953
+Θ=5.378199
+Rx
+Φ=0.615179
+Θ=4.097547
+Rx
+Φ=3.396614
+Θ=0.092726
+Rx
+Φ=0.585987
+Θ=4.734792
+Rx
+Φ=1.485216
+Θ=2.553575
+Rx
+Φ=3.024464
+Θ=5.432759
+Rx
+Φ=5.670216
+Φ=px21
+Φ=px22
+Φ=px23
+Φ=px24
+Φ=px25
+Φ=px26
+Φ=px27
+Φ=px28
+Φ=px29
+Φ=px30
+Φ=0.993734
+Φ=0.020391
+Φ=4.537038
+Φ=4.521887
+Φ=6.106553
+Φ=4.78755
+Φ=3.189858
+Φ=0.668599
+Φ=3.928877
+Φ=5.288364
+Θ=3.18974
+Rx
+Φ=1.249795
+Θ=2.34937
+Rx
+Φ=1.015043
+Θ=5.991016
+Rx
+Φ=5.795824
+Θ=5.771065
+Rx
+Φ=3.76328
+Θ=3.07
+Rx
+Φ=0.702886
+Θ=2.280675
+Rx
+Φ=6.190957
+Θ=5.069116
+Rx
+Φ=1.504523
+Θ=1.513441
+Rx
+Φ=3.564809
+Θ=0.494845
+Rx
+Φ=4.598711
+Θ=5.127225
+Rx
+Φ=6.144858
+Θ=3.347092
+Rx
+Φ=0.790177
+Θ=4.145337
+Rx
+Φ=5.949226
+Θ=1.037523
+Rx
+Φ=3.315472
+Θ=3.811342
+Rx
+Φ=6.059271
+Θ=5.836536
+Rx
+Φ=4.745471
+Θ=4.334566
+Rx
+Φ=4.479591
+Θ=2.506943
+Rx
+Φ=4.220334
+Θ=2.34627
+Rx
+Φ=5.652442
+Θ=2.836771
+Rx
+Φ=1.557637
+Θ=0.402287
+Rx
+Φ=0.132162
+Θ=3.480392
+Rx
+Φ=3.697278
+Θ=0.045181
+Rx
+Φ=4.447496
+Θ=0.369915
+Rx
+Φ=0.423489
+Θ=0.197373
+Rx
+Φ=2.076143
+Θ=3.230538
+Rx
+Φ=1.749724
+Θ=3.049949
+Rx
+Φ=3.388107
+Θ=4.544958
+Rx
+Φ=5.544176
+Θ=3.620445
+Rx
+Φ=1.526797
+Θ=2.971777
+Rx
+Φ=2.557633
+Θ=0.592666
+Rx
+Φ=4.140511
+Θ=2.226117
+Rx
+Φ=2.583032
+Θ=5.427646
+Rx
+Φ=0.340368
+Θ=4.105782
+Rx
+Φ=4.060067
+Θ=0.380841
+Rx
+Φ=4.575501
+Θ=5.030271
+Rx
+Φ=0.686558
+Θ=1.203796
+Rx
+Φ=3.369583
+Θ=0.880791
+Rx
+Φ=1.152889
+Θ=2.906778
+Rx
+Φ=5.494557
+Θ=0.473657
+Rx
+Φ=5.076953
+Θ=5.378199
+Rx
+Φ=0.615179
+Θ=4.097547
+Rx
+Φ=3.396614
+Θ=0.092726
+Rx
+Φ=0.585987
+Θ=4.734792
+Rx
+Φ=1.485216
+Θ=2.553575
+Rx
+Φ=3.024464
+Θ=5.432759
+Rx
+Φ=5.670216
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+0
+Training Quantum Reservoir...
+shapes mid: (392, 1716) (392, 5)
+Readout Type         | PCA MSE      | Real Space MSE 
+-------------------------------------------------------
+shape of predictions_np: (392, 5)
+shape of Y_targets: (392, 5)
+Ridge (L2) Training Complete | Final MSE: 5.7329349518 | Surface MSE in real space: 0.0000027540
+Ridge (L2) Training Complete | Final RMSE: 2.3943548203 | Surface RMSE in real space: 0.0016595047
+Ridge (L2) Training Complete | Final MAE: 1.2210012674 | Surface MAE in real space: 0.0010549080
+Ridge (L2) Training Complete | Final QLIKE: 570604864.0000000000 | Surface QLIKE in real space: 0.0000967646
+shape of predictions_np: (392, 5)
+shape of Y_targets: (392, 5)
+Linear Regression Training Complete | Final MSE: 0.0000000009 | Surface MSE in real space: 0.0000000000
+Linear Regression Training Complete | Final RMSE: 0.0000298590 | Surface RMSE in real space: 0.0000000197
+Linear Regression Training Complete | Final MAE: 0.0000158052 | Surface MAE in real space: 0.0000000128
+Linear Regression Training Complete | Final QLIKE: 0.0000488432 | Surface QLIKE in real space: 0.0000000000
+shape of predictions_np: (392, 5)
+shape of Y_targets: (392, 5)
+Random Forest Training Complete | Final MSE: 3.2636924685 | Surface MSE in real space: 0.0000016586
+Random Forest Training Complete | Final RMSE: 1.8065692537 | Surface RMSE in real space: 0.0012878477
+Random Forest Training Complete | Final MAE: 1.0467666439 | Surface MAE in real space: 0.0008373771
+Random Forest Training Complete | Final QLIKE: 50854700.3023124486 | Surface QLIKE in real space: 0.0000667782
+shape of predictions_np: (392, 5)
+shape of Y_targets: (392, 5)
+Decision Tree Training Complete | Final MSE: 0.2749299085 | Surface MSE in real space: 0.0000001581
+Decision Tree Training Complete | Final RMSE: 0.5243375902 | Surface RMSE in real space: 0.0003976211
+Decision Tree Training Complete | Final MAE: 0.2027825997 | Surface MAE in real space: 0.0001573261
+Decision Tree Training Complete | Final QLIKE: 17252198.5397607386 | Surface QLIKE in real space: 0.0000076888
+Ridge (L2) Training Complete | Final MSE: 65.534157 | Surface MSE in real space: 0.000034
+Ridge (L2) Training Complete | Final RMSE: 8.095317 | Surface RMSE in real space: 0.005867
+Ridge (L2) Training Complete | Final MAE: 3.582406 | Surface MAE in real space: 0.003669
+Ridge (L2) Training Complete | Final QLIKE: 463890304.000000 | Surface QLIKE in real space: 0.001382
+----------
+Linear Regression Training Complete | Final MSE: 286.153198 | Surface MSE in real space: 0.000168
+Linear Regression Training Complete | Final RMSE: 16.916063 | Surface RMSE in real space: 0.012974
+Linear Regression Training Complete | Final MAE: 9.338656 | Surface MAE in real space: 0.007911
+Linear Regression Training Complete | Final QLIKE: 3233421056.000000 | Surface QLIKE in real space: 0.015503
+----------
+Random Forest Training Complete | Final MSE: 63.465600 | Surface MSE in real space: 0.000035
+Random Forest Training Complete | Final RMSE: 7.966530 | Surface RMSE in real space: 0.005914
+Random Forest Training Complete | Final MAE: 3.723110 | Surface MAE in real space: 0.003660
+Random Forest Training Complete | Final QLIKE: 587727166.366714 | Surface QLIKE in real space: 0.001487
+----------
+Decision Tree Training Complete | Final MSE: 76.360837 | Surface MSE in real space: 0.000040
+Decision Tree Training Complete | Final RMSE: 8.738469 | Surface RMSE in real space: 0.006287
+Decision Tree Training Complete | Final MAE: 4.578084 | Surface MAE in real space: 0.003893
+Decision Tree Training Complete | Final QLIKE: 1806354956.704431 | Surface QLIKE in real space: 0.001553
+----------
+---------------------------------------------------------------------------
+ValueError                                Traceback (most recent call last)
+Cell In[990], line 31
+     29 Y_test_surface_scaled = pca.inverse_transform(Y_test_np)
+     30 # Y_pred_surface_scaled = pca.inverse_transform(Y_pred_np.reshape(1, -1))
+---> 31 Y_pred_surface_scaled = pca.inverse_transform(Y_pred_np.reshape(1, -1))
+     32 # Y_test_surface_scaled = pca.inverse_transform(Y_test_np.reshape(1, -1))
+     33 
+     34 # Undo scaling
+     35 Y_pred_surface = scaler.inverse_transform(Y_pred_surface_scaled)
+
+File ~/Q-volution 2026/.venv/lib/python3.11/site-packages/sklearn/decomposition/_base.py:205, in _BasePCA.inverse_transform(self, X)
+    203     return X @ scaled_components + self.mean_
+    204 else:
+--> 205     return X @ self.components_ + self.mean_
+
+ValueError: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 5 is different from 1716)
+(torch.Size([96, 5]), torch.Size([96, 1, 5]))
+1
+-----For Ridge (L2)-----
+tensor(435.6945)
+tensor(20.2057)
+tensor(11.2949)
+tensor(0.1548)
+tensor(0.0199)
+-----For Linear Regression-----
+tensor(1003.5336)
+tensor(220.5991)
+tensor(141.7797)
+tensor(1.0539)
+tensor(0.5799)
+-----For Random Forest-----
+tensor(435.0048, dtype=torch.float64)
+tensor(19.2804, dtype=torch.float64)
+tensor(11.0569, dtype=torch.float64)
+tensor(0.1988, dtype=torch.float64)
+tensor(0.0033, dtype=torch.float64)
+-----For Decision Tree-----
+tensor(421.6654, dtype=torch.float64)
+tensor(59.4258, dtype=torch.float64)
+tensor(26.4670, dtype=torch.float64)
+tensor(0.2793, dtype=torch.float64)
+tensor(0.0297, dtype=torch.float64)
+/Users/soardr/Q-volution 2026/.venv/lib/python3.11/site-packages/torch/nn/modules/loss.py:626: UserWarning: Using a target size (torch.Size([1])) that is different to the input size (torch.Size([96])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+(392, 96)
+392
+list
+Ridge (L2) Training Complete | Final MSE: 5.732935 | Surface MSE in real space: 0.000003
+Ridge (L2) Training Complete | Final RMSE: 2.394355 | Surface RMSE in real space: 0.001660
+Ridge (L2) Training Complete | Final MAE: 1.221001 | Surface MAE in real space: 0.001055
+Ridge (L2) Training Complete | Final QLIKE: 570604864.000000 | Surface QLIKE in real space: 0.000097
+---------
+Linear Regression Training Complete | Final MSE: 0.000000 | Surface MSE in real space: 0.000000
+Linear Regression Training Complete | Final RMSE: 0.000030 | Surface RMSE in real space: 0.000000
+Linear Regression Training Complete | Final MAE: 0.000016 | Surface MAE in real space: 0.000000
+Linear Regression Training Complete | Final QLIKE: 0.000049 | Surface QLIKE in real space: 0.000000
+---------
+Random Forest Training Complete | Final MSE: 3.263692 | Surface MSE in real space: 0.000002
+Random Forest Training Complete | Final RMSE: 1.806569 | Surface RMSE in real space: 0.001288
+Random Forest Training Complete | Final MAE: 1.046767 | Surface MAE in real space: 0.000837
+Random Forest Training Complete | Final QLIKE: 50854700.302312 | Surface QLIKE in real space: 0.000067
+---------
+Decision Tree Training Complete | Final MSE: 0.274930 | Surface MSE in real space: 0.000000
+Decision Tree Training Complete | Final RMSE: 0.524338 | Surface RMSE in real space: 0.000398
+Decision Tree Training Complete | Final MAE: 0.202783 | Surface MAE in real space: 0.000157
+Decision Tree Training Complete | Final QLIKE: 17252198.539761 | Surface QLIKE in real space: 0.000008
+---------
+/Users/soardr/Q-volution 2026/.venv/lib/python3.11/site-packages/torch/nn/modules/loss.py:626: UserWarning: Using a target size (torch.Size([1, 5])) that is different to the input size (torch.Size([1, 1716])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+---------------------------------------------------------------------------
+RuntimeError                              Traceback (most recent call last)
+Cell In[1005], line 14
+     11 for x_batch, y_batch in train_loader__for_plotting:
+     12     output = QuantumRes(x_batch)
+---> 14     loss = criterion(output, y_batch)
+     15     # loss = criterion(output.view(-1), y_batch.view(-1))
+     16 
+     17     # print("loss:", loss)
+     19     Y_pred_np = output.detach().numpy()
+
+File ~/Q-volution 2026/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1776, in Module._wrapped_call_impl(self, *args, **kwargs)
+   1774     return self._compiled_call_impl(*args, **kwargs)  # type: ignore[misc]
+   1775 else:
+-> 1776     return self._call_impl(*args, **kwargs)
+
+File ~/Q-volution 2026/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1787, in Module._call_impl(self, *args, **kwargs)
+   1782 # If we don't have any hooks, we want to skip the rest of the logic in
+   1783 # this function, and just call forward.
+   1784 if not (self._backward_hooks or self._backward_pre_hooks or self._forward_hooks or self._forward_pre_hooks
+   1785         or _global_backward_pre_hooks or _global_backward_hooks
+   1786         or _global_forward_hooks or _global_forward_pre_hooks):
+-> 1787     return forward_call(*args, **kwargs)
+   1789 result = None
+   1790 called_always_called_hooks = set()
+...
+     75 if has_torch_function(tensors):
+     76     return handle_torch_function(broadcast_tensors, tensors, *tensors)
+---> 77 return _VF.broadcast_tensors(tensors)
+
+RuntimeError: The size of tensor a (1716) must match the size of tensor b (5) at non-singleton dimension 1
+Output is truncated. View as a scrollable element or open in a text editor. Adjust cell output settings...
+((392, 5), (96, 5))
+array([-16.18381739,   0.51665958,   3.07288384,   0.17252763,
+         0.05649643])
+((392, 5), (96, 5))
+((488, 5), (488, 16, 5))
+{'Ridge (L2)': Ridge(alpha=0.001),
+ 'Linear Regression': LinearRegression(),
+ 'Random Forest': RandomForestRegressor(max_depth=7, random_state=42),
+ 'Decision Tree': DecisionTreeRegressor(max_depth=10, random_state=42)}
+dict_keys(['Ridge (L2)', 'Linear Regression', 'Random Forest', 'Decision Tree'])
+(96, 5)
+(494, 16, 14)
+(494, 16, 5)
+395
+99
+X_train__per_maturity: (392, 3, 16, 5) Y_train__per_maturity: (392, 16, 5)
+X_test__per_maturity : (96, 3, 16, 5) Y_test__per_maturity : (96, 16, 5)
+((392, 3, 16, 5), (392, 16, 5), (96, 3, 16, 5), (96, 16, 5))
+---------------------------------------------------------------------------
+RuntimeError                              Traceback (most recent call last)
+Cell In[988], line 16
+     13 x_norm = Normalizer(norm='l2').transform(x_np)
+     14 x_batch = torch.tensor(x_norm.reshape(B, W, M, F), dtype=torch.float32)
+---> 16 output = model(x_batch)
+     18 pred_flat = output.detach().cpu().numpy()
+     19 real_flat = y_batch.detach().cpu().numpy()
+
+File ~/Q-volution 2026/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1776, in Module._wrapped_call_impl(self, *args, **kwargs)
+   1774     return self._compiled_call_impl(*args, **kwargs)  # type: ignore[misc]
+   1775 else:
+-> 1776     return self._call_impl(*args, **kwargs)
+
+File ~/Q-volution 2026/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1787, in Module._call_impl(self, *args, **kwargs)
+   1782 # If we don't have any hooks, we want to skip the rest of the logic in
+   1783 # this function, and just call forward.
+   1784 if not (self._backward_hooks or self._backward_pre_hooks or self._forward_hooks or self._forward_pre_hooks
+   1785         or _global_backward_pre_hooks or _global_backward_hooks
+   1786         or _global_forward_hooks or _global_forward_pre_hooks):
+-> 1787     return forward_call(*args, **kwargs)
+   1789 result = None
+   1790 called_always_called_hooks = set()
+
+Cell In[567], line 56
+...
+---> 56 final = torch.reshape(x, (batch_size, self.input_size))
+     58 # if self.reservoir_type == 1:
+     59 if True:
+
+RuntimeError: shape '[1, 15]' is invalid for input of size 240
+Output is truncated. View as a scrollable element or open in a text editor. Adjust cell output settings...
+---------------------------------------------------------------------------
+RuntimeError                              Traceback (most recent call last)
+Cell In[1002], line 18
+     15 x_batch = torch.tensor(x_norm.reshape(B, W, M, F), dtype=torch.float32)
+     16 # print(x_batch.shape)
+---> 18 output = model(x_batch)
+     19 # print(output.shape)
+     21 pred_flat = output.detach().cpu().numpy()
+
+File ~/Q-volution 2026/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1776, in Module._wrapped_call_impl(self, *args, **kwargs)
+   1774     return self._compiled_call_impl(*args, **kwargs)  # type: ignore[misc]
+   1775 else:
+-> 1776     return self._call_impl(*args, **kwargs)
+
+File ~/Q-volution 2026/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1787, in Module._call_impl(self, *args, **kwargs)
+   1782 # If we don't have any hooks, we want to skip the rest of the logic in
+   1783 # this function, and just call forward.
+   1784 if not (self._backward_hooks or self._backward_pre_hooks or self._forward_hooks or self._forward_pre_hooks
+   1785         or _global_backward_pre_hooks or _global_backward_hooks
+   1786         or _global_forward_hooks or _global_forward_pre_hooks):
+-> 1787     return forward_call(*args, **kwargs)
+   1789 result = None
+   1790 called_always_called_hooks = set()
+
+Cell In[567], line 56
+...
+---> 56 final = torch.reshape(x, (batch_size, self.input_size))
+     58 # if self.reservoir_type == 1:
+     59 if True:
+
+RuntimeError: shape '[1, 15]' is invalid for input of size 240
+Output is truncated. View as a scrollable element or open in a text editor. Adjust cell output settings...
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+Cell In[711], line 26
+     23 ax.plot(days, Y_total_per_maturity[:, maturity_idx, i], label='Target', color='blue', alpha=0.7, linewidth=1.5)
+     24 once = False
+---> 26 for name in predictions_np_train__for_plotting__all_readouts__per_maturity.keys():
+     27         # 2. Plot Training Predictions
+     28         # These correspond to the indices [0 : split_idx]
+     29         # print(predictions_np_train__for_plotting__all_readouts__per_maturity[name].shape)
+     30         train_days = days[:split_idx]
+     31         ax.plot(train_days, predictions_np_train__for_plotting__all_readouts__per_maturity[name][:, maturity_idx, i], label='Train Prediction' if once is False else None, 
+     32                 color='green', linestyle='--', alpha=alphas[name])
+
+NameError: name 'predictions_np_train__for_plotting__all_readouts__per_maturity' is not defined
+(392, 5)
+((983, 225), {'train': (983, 225)})
+True
+(494, 224)
+((9, 224), numpy.ndarray)
+(9, 5)
+X_test__full_final_test : (6, 3, 5) Y_test__full_final_test : (6, 5)
+Ridge (L2) Training Complete | Final MSE: 40.913845 | Surface MSE in real space: 0.000015
+Ridge (L2) Training Complete | Final RMSE: 6.396393 | Surface RMSE in real space: 0.003861
+Ridge (L2) Training Complete | Final MAE: 3.850271 | Surface MAE in real space: 0.002889
+Ridge (L2) Training Complete | Final QLIKE: 5873612800.000000 | Surface QLIKE in real space: 0.000350
+---------
+Linear Regression Training Complete | Final MSE: 388.518066 | Surface MSE in real space: 0.000194
+Linear Regression Training Complete | Final RMSE: 19.710861 | Surface RMSE in real space: 0.013912
+Linear Regression Training Complete | Final MAE: 9.801803 | Surface MAE in real space: 0.008300
+Linear Regression Training Complete | Final QLIKE: 5375256064.000000 | Surface QLIKE in real space: 0.012925
+---------
+Random Forest Training Complete | Final MSE: 38.333550 | Surface MSE in real space: 0.000014
+Random Forest Training Complete | Final RMSE: 6.191409 | Surface RMSE in real space: 0.003791
+Random Forest Training Complete | Final MAE: 3.734208 | Surface MAE in real space: 0.002836
+Random Forest Training Complete | Final QLIKE: 5325907787.107062 | Surface QLIKE in real space: 0.000339
+---------
+Decision Tree Training Complete | Final MSE: 62.394339 | Surface MSE in real space: 0.000028
+Decision Tree Training Complete | Final RMSE: 7.899009 | Surface RMSE in real space: 0.005252
+Decision Tree Training Complete | Final MAE: 4.587539 | Surface MAE in real space: 0.004029
+Decision Tree Training Complete | Final QLIKE: 2955440042.545978 | Surface QLIKE in real space: 0.000823
+---------
